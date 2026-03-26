@@ -389,7 +389,7 @@ def main():
     processor = ImprovedDocumentProcessor(chroma_path="./pdf_chroma_db")
     
     # Specify your PDF file
-    pdf_file = "The Road to React - Robin Wieruch.pdf"
+    pdf_file = "sample.txt"
     
     # Check if file exists
     if not os.path.exists(pdf_file):
@@ -418,7 +418,7 @@ def main():
     print("STEP 2: CREATING CHUNKS")
     print("="*80)
     CHUNK_SIZE = 500  # Characters per chunk
-    OVERLAP = 50      # Overlap between chunks
+    OVERLAP = 100      # Overlap between chunks
     
     chunks = processor.create_smart_chunks(
         text=document_text,
@@ -455,7 +455,7 @@ def main():
         
         clustering_results = processor.perform_gmm_clustering(
             embeddings=embeddings,
-            n_clusters=n_clusters
+            n_clusters=5
         )
         
         # Step 6: Display results

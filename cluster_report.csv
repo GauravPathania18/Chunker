@@ -1,865 +1,933 @@
 Chunk ID,Cluster,Confidence,Preview
-chunk_000000,1,0.9999997460966379,The Road to React The React.js in JavaSc
-chunk_000450,1,0.9997691254081503,til you have the right book and build tr
-chunk_000900,0,0.9099645980840098,t Declaration Handler Function in JSX Re
-chunk_001350,2,0.9191608204801912,-Fetching in React Memoized Functions in
-chunk_001800,0,0.972922116299624,ches Paginated Fetch Deploying a React A
-chunk_002250,1,0.9998589745664883,ct continues to reinvent itself while pu
-chunk_002700,1,0.999999996181657,ct without complex tooling. The book cov
-chunk_003150,1,0.9999117967221326,"lications. Ultimately , you’ll learn to "
-chunk_003600,0,0.9998240462638536,ng JavaScript. Following the completion 
-chunk_004050,1,0.9999999387071928,ite. Positive feedback from readers seek
-chunk_004500,1,0.9973506366105477,bout collaborating with me can be found 
-chunk_004950,1,0.9999999515494563, Is the learning material up-to-date? Un
-chunk_005400,1,0.9999997502303045,my website. Since I use Amazon as one wa
-chunk_005850,1,0.999537382539352,is the print version so large? If you’ve
-chunk_006300,1,0.9999983045023718,t have many pages? The print version’ s 
-chunk_006750,1,0.9999999957827299,which this book is written and structure
-chunk_007200,0,0.8968880277106845,"immersive learning experience, I’ve take"
-chunk_007650,1,0.9999999838697563,aScript Beginners JavaScript beginners w
-chunk_008100,1,0.9922757528816297,wledge in this book though. JavaScript V
-chunk_008550,2,0.8219320887089218,siasts JavaScript enthusiasts with knowl
-chunk_009000,1,0.9999999267396928,"e, you should be more familiar than othe"
-chunk_009450,1,0.9926493004908548,"t fundamentals, you should be good to ge"
-chunk_009900,1,0.9999998312231924, application. Every section explains one
-chunk_010350,1,0.9997878635374321," domain, because it attempts to teach as"
-chunk_010800,1,0.9995700676476005,"l, it’ s possible to read from section t"
-chunk_011250,0,0.9999832688720758,"ot hesitate to underline paragraphs, to "
-chunk_011700,1,0.9999856293698908,rcise on the side to write down your lea
-chunk_012150,0,0.9999816493420947,".Do not just copy paste code, instead ty"
-chunk_012600,1,0.9987421438567438, So get your hands dirty and do more cod
-chunk_013050,1,0.9999153261265178,chance to present you the solution. Only
-chunk_013500,1,0.9999865933505139,"afterwards, code even a bit more if you "
-chunk_013950,2,0.9991420259867704,rough the creation of your first React p
-chunk_014400,0,0.9999900239923193,llo React Single-page applications ( SPA
-chunk_014850,0,0.9999992432021564,Let’s take a trip back in time before th
-chunk_015300,0,0.9595011953620155, this sequence of events again. In this 
-chunk_015750,0,0.9999075695283524,e focus from the server to the client. I
-chunk_016200,0,0.9952275973776318,r JavaScript file. Following a network a
-chunk_016650,0,0.9994421942736071,"avaScript, neatly structured into folder"
-chunk_017100,2,0.9701769020197389,ML  and managing user interactions with 
-chunk_017550,1,0.9999975938316183,"ework. Featuring a streamlined API, a fl"
-chunk_018000,2,0.9997812304271906,ack for this section . OceanofPDF .comRe
-chunk_018450,0,0.9999999999480167,editor (e.g. Sublime Text) and a command
-chunk_018900,0,0.9998762829981556,etails and I keep it separate from the b
-chunk_019350,0,0.9999999999830607,"ations professionally , a local setup wi"
-chunk_019800,0,0.9999010863307315,’ve provided a short guide  on how to us
-chunk_020250,0,1.0,can be libraries or whole frameworks. We
-chunk_020700,2,0.9338360974000902,sure that your installation is the most 
-chunk_021150,2,0.9877247266142206,’ll use Vite to set up our React applica
-chunk_021600,2,0.7497677858713533,"environment), and a bundler , which outp"
-chunk_022050,2,0.9950630162304551,d for this book) or React TypeScript (ad
-chunk_022500,0,0.9966370830411773," In a previous section, you have install"
-chunk_022950,0,0.9991033138450769,current folder use mkdir <folder_name>  
-chunk_023400,0,0.6474739854348296, + TypeScript project if you feel confid
-chunk_023850,0,0.9979724199887915,"navigating into the folder , installing "
-chunk_024300,2,0.9992179705728605," , for the rest of this section, we will"
-chunk_024750,0,0.9994568067781167,src/ ----assets/ ------react.svg ----App
-chunk_025200,0,0.9999995501805062,de/npm. package-lock.json:  This file in
-chunk_025650,0,0.9989696566858952,all folders and files that shouldn’ t be
-chunk_026100,0,0.8268297036593605,g.js:  A file to configure Vite. If you 
-chunk_026550,0,0.9982939040534652,ng the project for production. index.htm
-chunk_027000,2,0.9995633399953584,plement React components. It will be use
-chunk_027450,2,0.9964612761261155,style your overall application and compo
-chunk_027900,0,0.9999879935271289,"sion: package.json ""dev"": ""vite"", ""build"
-chunk_028350,0,1.0,rrors npm run lint # Builds the applicat
-chunk_028800,0,0.9948595490553405, former is not optimized for production 
-chunk_029250,2,0.9667149688158446,an be used later on to deploy your appli
-chunk_029700,2,0.9684512071980206,: Leave feedback for this section . Ocea
-chunk_030150,0,0.9998702558446692,ogo  from './assets/react.svg' ; import 
-chunk_030600,0,0.9995396886068418,"o }             className =""logo react"" "
-chunk_031050,0,0.9943058670051168,ogos to learn more       </p>     </>   
-chunk_031500,0,0.9349673895128502,nts into multiple files. Let’s start by 
-chunk_031950,2,0.9837093886586432,un dev  on the command line and check wh
-chunk_032400,0,0.9690418223222074,se . A component has to start with a cap
-chunk_032850,2,0.9255769504808176,". In the upcoming sections, you will lea"
-chunk_033300,0,0.9999970016976406,wser . Like any other JavaScript functio
-chunk_033750,0,0.9999588861837962,"s function runs, which shouldn’ t be som"
-chunk_034200,0,0.9999999988651211,ause it has to display something dif fer
-chunk_034650,0,0.7549465248192008,ove it outside. Therefore it will be def
-chunk_035100,0,0.9999936633034393,not need anything from within the functi
-chunk_035550,2,0.9985769018815855,ariable to use. Optional: Leave feedback
-chunk_036000,0,0.9999081880309948,nd JavaScript. Let’ s see how this works
-chunk_036450,0,0.9841639197076447,"change the variable in the source code, "
-chunk_036900,0,0.9919209158948407, development server which makes this beh
-chunk_037350,2,0.980469537799863,r by using dedicated HTML  attributes fo
-chunk_037800,0,0.9999143668697583,"d label combination, we specified three "
-chunk_038250,0,0.9060973007874483,al HTML  attributes caused by internal i
-chunk_038700,0,0.9172571358390711,es all HTML  attributes to JavaScript wh
-chunk_039150,0,0.9967471699546578,n order to contrast how HTML  and JavaSc
-chunk_039600,2,0.9999667244274554, the task. Before we have defined a Java
-chunk_040050,2,0.9998644669914689,""" />     </div>   ); }export default App"
-chunk_040500,2,0.9827926875147206,"l htmlFor=""search"">Search: </label>     "
-chunk_040950,2,0.918219235721903,Tools like Vite embrace the .jsx extensi
-chunk_041400,2,0.9882739423413623,pt. Whereas the previous way of thinking
-chunk_041850,2,0.9943006783384946,thods of fered by React) which only allo
-chunk_042300,2,0.9179356959493318,"HTML. Every JavaScript data structure, f"
-chunk_042750,2,0.9957391485657912, in JSX. Advanced: Try to render a JavaS
-chunk_043200,0,0.6685618087319355, like. Question: Can JSX be directly ren
-chunk_043650,2,0.9141745170636412,.comLists in React When working with dat
-chunk_044100,2,0.9532156220192911,"bers = [1, 2, 3, 4]; const exponentialNu"
-chunk_044550,2,0.9978749182169838,yourself to render each object with its 
-chunk_045000,0,0.999999992955793,pp() { ... } // note the ... as placehol
-chunk_045450,2,0.9953919325389011,hey don’t fit the desired naming convent
-chunk_045900,2,0.9998887030540333,"label>       <input id=""search"" type=""te"
-chunk_046350,2,0.9041587354521654,veloper in the end: just JS mixed with H
-chunk_046800,0,0.9927222206737706,e an id (here: objectId ): src/App.jsx f
-chunk_047250,0,0.9781874554407225,"keys, React may update the list inef fic"
-chunk_047700,2,0.99071366501189,"s last resort, you can use the index of "
-chunk_048150,2,0.95703760536952," In addition, it can cause actual bugs i"
-chunk_048600,0,0.8643183523386111,a> tag) that surrounds the title . Try i
-chunk_049050,2,0.9999564465235176,em.author}</span>               <span>{i
-chunk_049500,2,0.9349512809874069," JSX be used to display elements, but al"
-chunk_049950,2,0.9030400289526987,"t, check out the author ’s source code h"
-chunk_050400,0,0.999964777003823,nd return JSX elements for each item. Qu
-chunk_050850,2,0.9791685083440069,"rectly within JSX, but it’ s generally d"
-chunk_051300,2,0.9936599351303729,ionalities (e.g. rendering a list of ite
-chunk_051750,2,0.9997057876944344,.. ]; function App() { ... } function Li
-chunk_052200,0,0.9887192011193995, be used in the App component where we h
-chunk_052650,2,0.64985007615494,ibuting to the greater good of a lar ger
-chunk_053100,2,0.9610029025926615,>       <h1>My Hacker Stories</h1>      
-chunk_053550,2,0.9952295583880783,. The following illustration assumes tha
-chunk_054000,0,0.6191800205117035,component and sibling components  to eac
-chunk_054450,0,0.9998874262698443,ny child components. You can see how a R
-chunk_054900,0,0.9937091854238373,o extract a component from another compo
-chunk_055350,0,0.9995956229873719,t the author ’s source code . Recap all 
-chunk_055800,0,0.9998422347262444,Why is it beneficial to extract componen
-chunk_056250,0,0.9999990535143797,ponent to improve code or ganization. Qu
-chunk_056700,0,0.9999903159362254,an analogy and the terminology . We will
-chunk_057150,0,0.9999999999952536,lows functional programming and object-o
-chunk_057600,0,0.999999999963535,d assigns them to the class instance whe
-chunk_058050,0,0.9999802890801565,", one can create multiple instances of i"
-chunk_058500,0,0.5908553435552407,"t, which also has only one component dec"
-chunk_058950,0,0.9701365067322786,it as an element  anywhere in our JSX. T
-chunk_059400,0,0.9948251061519043,es it convenient to demonstrate their si
-chunk_059850,2,0.9985340524719046,st component its own list  variable. Opt
-chunk_060300,0,0.7234163535534737, component hierarchy would not render . 
-chunk_060750,0,0.9999995365972943,   <React.StrictMode >     <App />   </R
-chunk_061200,0,0.999992925298003,e React inserts itself into the HTML  to
-chunk_061650,2,0.9919962059789461,X as parameter which usually represents 
-chunk_062100,0,0.9997579234694433,"a React application from scratch, there "
-chunk_062550,2,0.7185019242411269,file and a lar ge JavaScript file? You c
-chunk_063000,2,0.7586414308261523,t where React inserts itself. From there
-chunk_063450,0,0.9987740160927884,ys of declaring functions in JavaScript 
-chunk_063900,0,0.8686630477352792,ns to arrow function expressions. While 
-chunk_064350,2,0.9545510939395841,"ction components can be refactored, but "
-chunk_064800,0,0.9999999999637623," in between, you can remove the block bo"
-chunk_065250,2,0.9999703698643224, addOne = (count) => count + 1; Let’s se
-chunk_065700,2,0.9937680303606131, App = () => (   <div>     ...   </div> 
-chunk_066150,0,0.9949449287848404,s with curly braces over concise bodies 
-chunk_066600,0,0.9999998372102387,   // perform a task in between   return
-chunk_067050,0,0.9999339669706347,"ur component declaration more concise, y"
-chunk_067500,0,0.9894736602441467," are using TypeScript, check out the aut"
-chunk_067950,0,0.9465264698839838,ent() {...} . Question: How do you decla
-chunk_068400,0,0.6845728890454768,d in our project is the Search component
-chunk_068850,2,0.9999800063159519,tatement: src/App.jsx const Search = () 
-chunk_069300,2,0.9999992017071466,  attribute (JSX named attribute) of the
-chunk_069750,0,0.8907531871192345," in a web browser , open the browser ’s "
-chunk_070200,0,0.9372032294097125,prevent the native browser behavior . Fo
-chunk_070650,2,0.5579244152845771,ss HTML  elements in JSX handler functio
-chunk_071100,0,0.6299261595625618,} /> // do this instead <input onChange 
-chunk_071550,2,0.9772391757235321,t onChange={handleChange} /> ). When dev
-chunk_072000,0,0.937142991243555,"tion to the onChange  attribute, add a o"
-chunk_072450,0,0.9999478638453174,"ute, like onClick= {handleClick} . Quest"
-chunk_072900,0,0.9999999225766233,ler in JSX? Answer: Use an arrow functio
-chunk_073350,0,0.999999996022126,or manipulate it. Question: How do you a
-chunk_073800,2,0.9818205444233258,: It stops the event from propagating up
-chunk_074250,2,0.9162031444240983,t maintainable with multiple variables a
-chunk_074700,2,0.9924285962738804,riptive name. Don’ t forget to refactor 
-chunk_075150,2,0.7410291405249179,"n Abramov, Andrew Clark',       num_comm"
-chunk_075600,2,0.9999675669082028, ... ];   return (     <div>       ...  
-chunk_076050,2,0.7363118650853266,(       <li key={item.objectID}>        
-chunk_076500,0,0.9997862180920288,"rror stating, “error ‘list’  is missing "
-chunk_076950,0,0.8567611276841279,embrace TypeScript in your React develop
-chunk_077400,0,0.9921108418457912, t know how to pass each item to the ext
-chunk_077850,2,0.9781622576717656,"rself after some time, check out how the"
-chunk_078300,0,0.8371889159474377,rget the key attribute which we introduc
-chunk_078750,2,0.9300457890063993,"d, you should see the list rendering aga"
-chunk_079200,0,0.9759587966217834, vehicle to share information from top t
-chunk_079650,0,0.9884978912963852,r properties) are a mechanism for passin
-chunk_080100,0,0.996651849373152,"nt? Answer: No, props are immutable. The"
-chunk_080550,2,0.9994940561147551,", but can also get mutated by using a fu"
-chunk_081000,2,0.9999841911344217, input field element in the Search compo
-chunk_081450,2,0.8903521427359615,  <p>         Searching for <strong>{sea
-chunk_081900,2,0.9979219239474785,eact from 'react'; ... const Search = ()
-chunk_082350,2,0.999327049660177,React’ s useState  method takes an initi
-chunk_082800,2,0.923394739115186,o update it (write). When the user types
-chunk_083250,2,0.8990903353865664,nto each of your components. For example
-chunk_083700,0,0.5165721523345471, changed. Now you have heard the terms r
-chunk_084150,0,0.9960539509956554,es a re- rendering of all the components
-chunk_084600,0,0.9999999945165428,y useState  hooks as you want in one or 
-chunk_085050,0,0.9014938678995948,and warnings to identify potential issue
-chunk_085500,0,0.99988749462486,t state from its internal closure . This
-chunk_085950,0,0.5043231017695924,rce code . Recap all the source code cha
-chunk_086400,0,0.984901574955887, How do you use useState to declare stat
-chunk_086850,0,0.9990616999961103,tate? Answer: Use the second entry retur
-chunk_087300,2,0.9993698849390827, an object allows you to manage multiple
-chunk_087750,0,0.5392895475345232,down as information from parent to child
-chunk_088200,0,0.7884532767232638,onent does not share its state with othe
-chunk_088650,0,0.9911226299593773,communicate to a child component via pro
-chunk_089100,2,0.9999997307715567,"handler (C), and calls back  to the plac"
-chunk_089550,2,0.999941357239775,chTerm] = React.useState('');   const ha
-chunk_090000,0,0.741803458508453, just a more specific type of an event h
-chunk_090450,0,0.9999754078477698,ssed as props from a parent component to
-chunk_090900,2,0.5954308631969367,e author ’s source code here. Revisit th
-chunk_091350,0,0.9967327532921023,"a prop, like <ChildComponent callback= {"
-chunk_091800,0,0.9999813886044173," asynchronous, allowing for handling asy"
-chunk_092250,2,0.9999873540773011,n to use callback handlers for form subm
-chunk_092700,2,0.9999452764815003,"nt. So far , we have learned about how t"
-chunk_093150,2,0.9998892360399168,rriving searchTerm  in the App component
-chunk_093600,2,0.999473716660378,in the Search component in the first pla
-chunk_094050,2,0.9999989738564927, the stories  before they are passed to 
-chunk_094500,2,0.9999992881723447,ies} />     </div>   ); }; const Search 
-chunk_094950,2,0.97608505177128,ly passes up the event to the App compon
-chunk_095400,2,0.9995143533483427,the searchTerm  state down as props). Ru
-chunk_095850,2,0.9997289317297888,hich allows this particular component to
-chunk_096300,2,0.9999998707353454,nd the searchTerm  before consulting the
-chunk_096750,0,0.9999929716539389,h={handleSearch} />       <hr />       <
-chunk_097200,0,0.9968664294204457,oved: Code Playground const words = [   
-chunk_097650,0,0.9999999996377369,filter((story) =>     story.title.includ
-chunk_098100,2,0.9998368451726832,r the searchTerm  is present as string i
-chunk_098550,2,0.9997992323037412,pp = () => {   ...   const searchedStori
-chunk_099000,2,0.9802813885640367,"o the Search component. After all, knowi"
-chunk_099450,0,0.9999528010126292,all the source code changes from this se
-chunk_099900,0,0.9999999982334487,"e and manage state at a higher level, ma"
-chunk_100350,0,0.999998833665243,te in a component? Answer: Lifting state
-chunk_100800,0,0.9999962506102608,de how to update itsstate. Question: Is 
-chunk_101250,2,0.9993930107066754,nts come with their internal state which
-chunk_101700,2,0.9999445331020869," App component, use 'React'  as initial "
-chunk_102150,2,0.9999713932647512,do we see the changes reflected in it. T
-chunk_102600,2,0.9999999892125402,ovide the current state as value  to it:
-chunk_103050,2,0.9990856786669694,e={props.search}       onChange={props.o
-chunk_103500,2,0.9850335247001893,. Earlier the HTML  element did its own 
-chunk_103950,0,0.9980621268536913,your source code against the author ’s s
-chunk_104400,0,0.998317588509951,Question: How do you create a controlled
-chunk_104850,0,0.999994432756161,hange handler to update the correspondin
-chunk_105300,0,0.9972543602377119, from parent to child down the component
-chunk_105750,2,0.9101750124162458,anced props techniques that will make yo
-chunk_106200,0,0.9890306441299527,cessing an object’ s properties with mod
-chunk_106650,2,0.9999631616125231,ten a more straightforward and elegant a
-chunk_107100,2,0.9999956458348443,he destructuring of the props object wit
-chunk_107550,2,0.9993911133800019, be used conveniently in the component. 
-chunk_108000,2,0.9997982028454971,y destructuring the props  object righta
-chunk_108450,2,0.9999705502208603,ormation that is contained in the props 
-chunk_108900,2,0.9999982517720061, = ({ item }) => (   <li>     <span>    
-chunk_109350,2,0.9399421699098868,the code and the overall development exp
-chunk_109800,2,0.9976092785987443,"ignature, it isn’t directly used in the "
-chunk_110250,0,0.934177970176913,"e : 'Robin',   pet: {     name: 'Trixi',"
-chunk_110700,2,0.9999956831218054, to gather all the needed information of
-chunk_111150,0,0.92367213414139,pan>     <span>{author}</span>     <span
-chunk_111600,0,0.9833191705284722, of clutter through indentations in the 
-chunk_112050,2,0.9999977072311163,property of the item  object: src/App.js
-chunk_112500,2,0.9999435115257955,span>       <a href={url}>{title}</a>   
-chunk_112950,2,0.8162949970373515,"tName : 'Robin',   lastName : 'Wieruch' "
-chunk_113400,2,0.9998788062694787,in React’ s JSX. Instead of passing each
-chunk_113850,2,0.9985865934301208,"e, url, author, num_comments, points }) "
-chunk_114300,0,0.9999772824378182,n object destructuring: Code Playground 
-chunk_114750,0,0.9999906589331722, mistaken with the spread operator . Whe
-chunk_115200,2,0.9999993376145317, as attribute/value pairs into the Item 
-chunk_115650,2,0.9999497921191368,an>     <span>{points}</span>   </li> );
-chunk_116100,2,0.9703172240021861,"ot only for the props  object, but also "
-chunk_116550,2,0.9423511104197332," rest operators, which shouldn’ t be con"
-chunk_117000,2,0.9999981132606344,> ); const Item = ({ item }) => (   <li>
-chunk_117450,0,0.7830842961216585,ch are not familiar to everyone. After a
-chunk_117900,2,0.9531471572505328,gh the component to the next child compo
-chunk_118350,2,0.9842780009159897,erties from your props object. Use neste
-chunk_118800,0,0.7357496041258215,rator  and rest operator . Get a good se
-chunk_119250,0,0.9999999945221987,’ s parameters? Answer: You can destruct
-chunk_119700,0,0.9990341083682809,"ps based on your component’ s needs, lea"
-chunk_120150,0,0.9914299041389969,mponent {…props} newProp={value} />. Que
-chunk_120600,0,0.7573434908063911,estion: Why is array destructuring used 
-chunk_121050,0,0.9850737801229449,Prop drilling is the process of passing 
-chunk_121500,2,0.9797435090842022,"s, or with built-in JavaScript functions"
-chunk_121950,2,0.9997096500104375,"er the most recent search, so that the a"
-chunk_122400,2,0.999925490601243,andleSearch = (event) => {     setSearch
-chunk_122850,0,0.8199573446577045,| 'React'   );   ... ); Good to know: Ja
-chunk_123300,2,0.912370710342381,localStorage .getItem('search' )   : 'Re
-chunk_123750,0,0.9900228613239512,"omplete, but there is one flaw that may "
-chunk_124200,2,0.9993755720141877,zed place and not in a specific handler 
-chunk_124650,2,0.9957342609011586,.value);   };   ... ); React’ s useEf fe
-chunk_125100,0,0.9683439259223304,"to the HTML  input field). In addition, "
-chunk_125550,2,0.9999236615630788,"t time. After all, the hook lets us opt "
-chunk_126000,0,0.9999761427041879,erm  state is updated via setSearchTerm 
-chunk_126450,2,0.6502694221535508,k’ s dependency array . Check the logs f
-chunk_126900,0,0.9999719810988427,rch. That’ s because JavaScript’ s logic
-chunk_127350,0,0.9999999366242796,mponents to perform side ef fects. Quest
-chunk_127800,0,0.9999998048112295,([]) as the second argument. Question: C
-chunk_128250,0,0.999991283169968,he useEf fect with the cleanup logic. Qu
-chunk_128700,2,0.998832678674878,? Answer: It allows you to handle asynch
-chunk_129150,2,0.9992570882945465,"al hooks provided by React, our upcoming"
-chunk_129600,2,0.9999770326699885,e our exploration by outlining how we in
-chunk_130050,0,0.7631877221636123,"his custom hook, we can use it in a mann"
-chunk_130500,2,0.9658456323777328,troduced local storage features are ther
-chunk_130950,2,0.999998943825549, the useState  and useEffect  hooks whic
-chunk_131400,2,0.5543124414298919,", [searchTerm]);   return [searchTerm, s"
-chunk_131850,2,0.9975344023623861,"e generic, we have to adjust the interna"
-chunk_132300,2,0.9987579999534789,state updater function anything domain-r
-chunk_132750,2,0.9999788378924849,"mes that it could change, so it needs to"
-chunk_133200,2,0.9992013311910739,"alue, key]);   return [value, setValue];"
-chunk_133650,0,0.9734686188465591,en to use the same key more than once fo
-chunk_134100,0,0.5999247388912463,vial implementation details that should 
-chunk_134550,0,0.7725983479198228, all the source code changes from this s
-chunk_135000,0,0.7866294945093206,React hooks to encapsulate and reuse log
-chunk_135450,0,0.9996957884874251, their association with React hooks. Que
-chunk_135900,0,0.9999960060909422,cess to the component’ s props. They usu
-chunk_136350,0,0.9928593479770476,uestion: Can custom hooks have side ef f
-chunk_136800,2,0.9840180749427913,mponents return JSX with one top-level H
-chunk_137250,2,0.9978863771017172,earch}       onChange={onSearch}     /> 
-chunk_137700,2,0.9950086132484011,"search""     type=""text""     value={searc"
-chunk_138150,2,0.969231766293664,"For=""search"">Search: </label>     <input"
-chunk_138600,2,0.999999943834952,in their shorthand version: src/App.jsx 
-chunk_139050,0,0.9999854947824206,"tisfy React, you can use fragments as he"
-chunk_139500,0,0.9999810373796519, additional DOM element. Question: How d
-chunk_139950,0,0.999999998034582,required in every React component? Answe
-chunk_140400,0,0.9999912737707917, be applied to the elements within the F
-chunk_140850,0,0.9999995573892149,omposed of merely a label and an input. 
-chunk_141300,0,0.9999793655304793,or /id combination is duplicated. This d
-chunk_141750,2,0.9993944466565666,ue and callback handler to more generic 
-chunk_142200,2,0.8579343608635861,{label}</label>     &nbsp;     <input   
-chunk_142650,2,0.9099381564882194,"el = ({   id,   label,   value,   type ="
-chunk_143100,0,0.9999956393851481,"onent is used without a type  prop, the "
-chunk_143550,0,0.9999999966875919,f we do. It’s always a trade-of f betwee
-chunk_144000,2,0.8874655810052504,de . Recap all the source code changes f
-chunk_144450,2,0.827521262354948,"with label=""Search:""  as prop to the Inp"
-chunk_144900,0,0.9999411573799513,ous parts of an application. Question: H
-chunk_145350,0,0.9996873857789528,sable component can have internal state 
-chunk_145800,2,0.9929135310264232,n there are components which have only a
-chunk_146250,2,0.999947085859765,there could be an opening and closing ta
-chunk_146700,2,0.9986637705567837, features. Essentially we’ll discover ho
-chunk_147150,2,0.9154769191126259,op to render everything that has been re
-chunk_147600,2,0.999993370922996,verything that’ s passed between a compo
-chunk_148050,2,0.9916714654715177,leSearch}       >         <strong>Search
-chunk_148500,0,0.9999997983477361, the author ’s source code . Recap all t
-chunk_148950,0,0.9999851045657034,uestion: How can you access and render t
-chunk_149400,0,0.99963730968045,React components as “children” to anothe
-chunk_149850,0,0.9999997821768101,act.Children.map or React.Children.forEa
-chunk_150300,0,0.9949723552826781, other props are key-value pairs passed 
-chunk_150750,0,0.9981497264064058,approach. Instead of manually manipulati
-chunk_151200,2,0.8021793510000809," see, not how to create these elements. "
-chunk_151650,0,0.9997359646016193,do something   };   return (     <button
-chunk_152100,0,0.9999999997351665,g (here: setting) an input field’ s focu
-chunk_152550,2,0.6865686150734861, can achieve the same outcome by setting
-chunk_153000,0,0.9962387938204684,"s works, but only if one of the reusable"
-chunk_153450,2,0.9891990045507733,       <h1>My Hacker Stories</h1>       
-chunk_153900,2,0.9965059793260115," = ({   id,   value,   type = 'text',   "
-chunk_154350,0,0.9999786314906185,tive approach (which is the recommended 
-chunk_154800,2,0.867404336071816,putRef.current) {       // D       input
-chunk_155250,0,0.892650505307175, useRef Hook . This ref object is a pers
-chunk_155700,0,0.9999999971758768, on the element when the component rende
-chunk_156150,0,0.9999999982336192,ible to use either the declarative or im
-chunk_156600,0,0.9999999993092672,re your source code against the author ’
-chunk_157050,0,0.9999213998240465,. Optional: Leave feedback for this sect
-chunk_157500,0,0.9999850474262442,ng. Question: Can useRef be used to hold
-chunk_157950,0,0.9999997226303023,"Answer: No, changing the value of a ref "
-chunk_158400,2,0.7180242480694924,created with useRef. OceanofPDF .comInli
-chunk_158850,0,0.9996663578443649,"ter dif ficulties, proceed to read this "
-chunk_159300,2,0.9995621194647002, needs to become a stateful value (here:
-chunk_159750,2,0.9982432515571908,m by its identifier . Now we want to che
-chunk_160200,2,0.9515366083644676,"ist, make it stateful by using it as ini"
-chunk_160650,2,0.9995763592792829,"ramov, Andrew Clark',     num_comments: "
-chunk_161100,2,0.9998271903316202, are coming from has changed. But we are
-chunk_161550,2,0.9999695446804268,<h1>My Hacker Stories</h1>      ...     
-chunk_162000,2,0.9999990329537085, stories – where the desired item (story
-chunk_162450,2,0.9998277923336226,"not use this new callback handler , but "
-chunk_162900,2,0.9994129608207866,"ver , an additional button element is ne"
-chunk_163350,2,0.9995102950666469,oveItem}>           Dismiss         </bu
-chunk_163800,0,0.9997482199024861,"re, we applied many lessons learned from"
-chunk_164250,2,0.9660765124197823,andler to pick up the item as argument f
-chunk_164700,2,0.9999990495117542,i>     <span>       <a href={item.url}>{
-chunk_165150,2,0.9999742746888689,d method returns a new function with the
-chunk_165600,2,0.9998997982288045," <button type=""button"" onClick={() => on"
-chunk_166050,2,0.9999807452854919,"Playground const Item = ({ item, onRemov"
-chunk_166500,0,0.9999999982704821,"handlers need to use a block body , beca"
-chunk_166950,0,0.9999779939983111," about how to add, update , remove  item"
-chunk_167400,0,0.9810764465716454,t? Answer: Inline functions allow you to
-chunk_167850,0,0.5038201047211586, like onClick={() => myFunction()} . Oce
-chunk_168300,2,0.5056687131047142,reparing our application to deal with re
-chunk_168750,2,0.8096969089309028,om a real remote API. We start of f with
-chunk_169200,2,0.9999787998995606,pty list of stories and simulate fetchin
-chunk_169650,2,0.9999361323883235,"result.data.stories);    });   }, []);  "
-chunk_170100,2,0.9972560656258331,lve) =>     resolve({ data: { stories: i
-chunk_170550,2,0.9990338380996678,hing gets rendered in the List component
-chunk_171000,0,0.9703303771918583,data asynchronously from a promise. Howe
-chunk_171450,2,0.9993280870644075,ses . Read more about faking a remote AP
-chunk_171900,0,0.8763086960609417,"d before initiating data fetching, and c"
-chunk_172350,2,0.9814559197731195,s are used to manage asynchronous operat
-chunk_172800,2,0.9984770642453368,"act? Answer: Yes, after simulating async"
-chunk_173250,2,0.9999580936574753,chronous data arrives? Answer: React’ s 
-chunk_173700,0,0.9999553440433596,", our goal is to implement this feedback"
-chunk_174150,0,0.9999997780819532,g indicator . Optional Hints: In order t
-chunk_174600,2,0.8220372800204423,lways happens if we have to render diffe
-chunk_175050,0,0.9999996941300152,ts of things to cover for us as develope
-chunk_175500,2,0.999890103627227,"this, allowing us to set the state accor"
-chunk_175950,0,0.9999190122095675, . What’ s missing is showing the user t
-chunk_176400,0,0.8421630331688054,ing indicator or the List component. Usi
-chunk_176850,2,0.950820688343086,searchedStories}           onRemoveItem=
-chunk_177300,2,0.9903078498265534,her state for error handling and handle 
-chunk_177750,0,0.9922771343462439,     setIsLoading(false);       })      
-chunk_178200,0,0.9999969459555611,&& <p>Something went wrong ...</p>}     
-chunk_178650,0,0.9999969520857073,it and skips the expression. Using expre
-chunk_179100,2,0.9993481463265916,ditionally render JSX. It’ s yet another
-chunk_179550,0,0.9522746764941988,: Leave feedback for this section . Inte
-chunk_180000,0,0.9579118019382461,fore we do not need a conditional render
-chunk_180450,2,0.6784777331462662,ate value. Question: Can you use useStat
-chunk_180900,2,0.9865874742738009,ed. Question: How do you handle loading 
-chunk_181350,2,0.9986124280568672,eanofPDF .comReact Advanced State All st
-chunk_181800,2,0.9999728299688392,de about reducers in JavaScript . In thi
-chunk_182250,2,0.9999981558006633,"a , isLoading , error ) managed by a red"
-chunk_182700,2,0.9999667455334394,".. ); const storiesReducer = (state, act"
-chunk_183150,2,0.9997824387639817,isn’ t covered.The storiesReducer  funct
-chunk_183600,2,0.9996504576415174,e  and the second item is the state upda
-chunk_184050,2,0.9998924351745888,e updater function sets the state implic
-chunk_184500,2,0.99999471463107,"sError(true));   }, []);   const handleR"
-chunk_184950,0,0.9981475389940727, version by handling more than one state
-chunk_185400,2,0.9999869426553799,cer what to do . Everything else is hidd
-chunk_185850,2,0.9697303773730347,ion givesall the necessary information (
-chunk_186300,2,0.9920411158825416,rror();   } }; All these if-else stateme
-chunk_186750,2,0.8938388218127821,te.filter(         (story) => action.pay
-chunk_187200,2,0.9999830366312299, can set a list of stories as state for 
-chunk_187650,2,0.9982603868697631,inst the author ’s source code . Recap a
-chunk_188100,0,0.9996648475234715,section . Interview Questions: Question:
-chunk_188550,0,0.9999342589932112,is the basic structure of the useReducer
-chunk_189000,2,0.9001027723321724,ing useReducer? Answer: State is updated
-chunk_189450,2,0.9988292317925456, disconnect between the single states in
-chunk_189900,0,0.9307245705175229,te  hooks in one React component. Be war
-chunk_190350,0,0.9999999265520243,); The impossible state happens when an 
-chunk_190800,2,0.98665001318176,d try yourself to fix this bug. Fortunat
-chunk_191250,2,0.9999806560204234,"or, setIsError ] = React.useState (false"
-chunk_191700,2,0.7234539664929243,"eact’ s useState Hooks anymore, everythi"
-chunk_192150,2,0.9999589932251509,"= () => {   ...   const [stories, dispat"
-chunk_192600,2,0.9999975209142952,: 'STORIES_FETCH_FAILURE' })       );   
-chunk_193050,0,0.9571125380173071,"esReducer = (state, action) => {   switc"
-chunk_193500,0,0.9758999787066737,",       };     case 'REMOVE_STORY':     "
-chunk_193950,0,0.9800307944371199,_FETCH_FAILURE  sets the isLoading  bool
-chunk_194400,2,0.9929527090708687,"ect with data , isLoading , and error  s"
-chunk_194850,2,0.9994969061405957,cludes(searchTerm.toLowerCase())   );   
-chunk_195300,2,0.9999282177829047,tAsyncStories  = () =>   new Promise((re
-chunk_195750,0,0.9969387846680398," rid of impossible states, because it’ s"
-chunk_196200,0,0.9999997026358345, more about deriving state from props in
-chunk_196650,0,0.9886912464058144,"nd predictable state, preventing unexpec"
-chunk_197100,2,0.9999938274907766,"updates, reducing the risk of impossible"
-chunk_197550,0,0.998653917928459,informative Hacker News API to request p
-chunk_198000,0,0.9979432663145186,ews API to fetch the data. Optional Hint
-chunk_198450,2,0.5797940219524418,ecause everything is already in place. T
-chunk_198900,2,0.9999573321816865,/search?query='; const App = () => {   .
-chunk_199350,2,0.9998768747217501,", []);   ... }; First, the API_ENDPOINT "
-chunk_199800,0,0.999816821605464,"vious code example, we used JavaScript’ "
-chunk_200250,2,0.8471344137811543,er to see stories related to the initial
-chunk_200700,2,0.9261831371643373,or ’s source code . Recap all the source
-chunk_201150,2,0.9715675243181354, dynamically retrieve and display inform
-chunk_201600,0,0.9999999096975826,tax or promises within the useEf fect ho
-chunk_202050,0,0.9994499828100114,ns. Specifying dependencies ensures that
-chunk_202500,0,0.6627908288028506,"ore and update data retrieved from APIs,"
-chunk_202950,2,0.9912110129105633,g states provides feedback to users whil
-chunk_203400,2,0.9860360024249317," this case: 'react' ), we consistently s"
-chunk_203850,0,0.9920297543003135,to get data from the remote API based on
-chunk_204300,0,0.9999982359554095,"pends on factors like dataset size, sear"
-chunk_204750,2,0.999670391603615,. Optional Hints: The calculated value s
-chunk_205200,2,0.9999952469354394,filtered by search term from the API. Pa
-chunk_205650,2,0.9999845252583782,"ate. Afterward, every time a user search"
-chunk_206100,2,0.9999947020315514,  fetch(`${API_ENDPOINT}${searchTerm}`) 
-chunk_206550,2,0.9968872373836826,"ich is set as initial state), the search"
-chunk_207000,2,0.9999747484126749,App = () => {   ...   React.useEffect(()
-chunk_207450,2,0.999732968812103,"_SUCCESS',           payload: result.hit"
-chunk_207900,0,0.9957460645044321,e initial data fetch but also when these
-chunk_208350,0,0.9895474078063248,to address this issue soon. Exercises: C
-chunk_208800,0,0.9999929163326087,stion: How does client-side searching im
-chunk_209250,0,0.9999997857338431,arching is preferable for lar ge dataset
-chunk_209700,0,0.9999909292844921,"rs, especially if the API employs rate l"
-chunk_210150,0,0.9698070987698278," essentially a function itself, you can "
-chunk_210600,2,0.9999730697443784,on expression (A). This new function is 
-chunk_211050,2,0.9993151316222947,         dispatchStories({           typ
-chunk_211500,0,0.618873633782322,ook. Instead of using the data fetching 
-chunk_211950,2,0.5587132890320882, dependency array (E) changes. As a resu
-chunk_212400,2,0.8969968925721871,unction would be created each time the A
-chunk_212850,2,0.987072505087164,de-effect 3. update: state 4. re-render:
-chunk_213300,2,0.9983092557837181, want to see the new data displayed in o
-chunk_213750,0,0.996517205763489,"hook depends on the handleFetchStories ,"
-chunk_214200,0,0.9999922561814558,ck hook in React? Answer: useCallback is
-chunk_214650,0,0.9999999996264535," gument is the function to be memoized, "
-chunk_215100,0,0.9999981849008452,ata each time someone types in the input
-chunk_215550,0,0.9998421565951321,ton. Task: The server -side search execu
-chunk_216000,2,0.9565897934837093,ch as state by using the current search 
-chunk_216450,2,0.9908208373848667,n (     <div>       <h1>My Hacker Storie
-chunk_216900,2,0.9994129367953482,dler of the input field and the button. 
-chunk_217350,2,0.9996526939132091,_ENDPOINT}${searchTerm}`   );   ...   co
-chunk_217800,2,0.9999904275767052,ing a search request when clicking the b
-chunk_218250,2,0.9623125035791182,"TORIES_FETCH_FAILURE' })       );   }, ["
-chunk_218700,0,0.9999999999601528,tion button. Exercises: Compare your sou
-chunk_219150,0,0.999275800350408,because it’ s already derived from a sta
-chunk_219600,0,0.9999958335489336,e native fetch API (which the browser pr
-chunk_220050,0,0.9997567734412972,are a bit of f-task for the purpose of t
-chunk_220500,2,0.9981250231425425," API, go ahead and implement it yourself"
-chunk_220950,2,0.992476262946778, promise. You don’ t have to transform t
-chunk_221400,2,0.9971115172844028,"pe: 'STORIES_FETCH_SUCCESS',           p"
-chunk_221850,0,0.8004496401079418,e with these examples that axios is a po
-chunk_222300,0,0.9650079468330196,s in React . Optional: Read more about a
-chunk_222750,0,0.8846927656229319,ed to the native Fetch API. Question: Wh
-chunk_223200,2,0.998712377296805,sts in React? Answer: Axios provides a .
-chunk_223650,2,0.9981423003531268,"be a remote API that gives you data, whe"
-chunk_224100,0,0.9968875286797709,e from using then/catch to async/await. 
-chunk_224550,2,0.9996797249745011, App = () => {   ...   const handleFetch
-chunk_225000,0,0.5830487780921849,onous code. Actions after the await  key
-chunk_225450,2,0.9922510216175917, });     try {       const result = awai
-chunk_225900,0,0.8759329318911675,"synchronous way . However , using then/c"
-chunk_226350,0,0.9999999999679972,tion: What is async/await? Answer: async
-chunk_226800,0,0.9997390740417658,th asynchronous code in a more readable 
-chunk_227250,2,0.9907207495012872,ning .then(). Question: Can you use asyn
-chunk_227700,2,0.9980252242344047,forms. A form is just a proper vehicle t
-chunk_228150,2,0.9999968071405573,oring steps with some HTML/JavaScript. F
-chunk_228600,0,0.5461631738285474,"         <button type=""submit"" disabled="
-chunk_229050,2,0.9999359353875902," for the form event, it executes prevent"
-chunk_229500,2,0.999550367907047,ead of just a standalone button. In the 
-chunk_229950,2,0.9999999153523795,    onInputChange={onSearchInput}     > 
-chunk_230400,2,0.9999968352139974,o the List component: src/App.jsx const 
-chunk_230850,0,0.8823828184545838,dleRemoveStory} />       )}     </div>  
-chunk_231300,0,0.9943399913358008,users as well. Exercises: Compare your s
-chunk_231750,0,0.9531161711811377,"orm input in React? Answers: In React, f"
-chunk_232200,0,0.9998650841970571,rm submission behavior in React? Answers
-chunk_232650,0,0.9922705670584635,Answers: Form validation in React is typ
-chunk_233100,2,0.8669367811597687,ith a single onChange handler in React?A
-chunk_233550,1,0.9999999961475083," React So far , you have learned everyth"
-chunk_234000,1,0.9999999891964819,hands dirty . My favorite approach: Lear
-chunk_234450,1,0.9999999980005612,ly touch three aspects: advanced feature
-chunk_234900,1,0.9999999985179642,"eeper into various subjects though, I ca"
-chunk_235350,1,0.9999614064730775," most popular routing library for React,"
-chunk_235800,0,0.9953924391744163,t solves. So it would end up being a pre
-chunk_236250,0,0.919597602449196,ple hooks in a real application (recomme
-chunk_236700,0,0.9991270181834421,t Render Prop Components  and React High
-chunk_237150,1,0.9998879655261347,l which power JavaScript build pipelines
-chunk_237600,1,0.9999999928972727,"e very much appreciated. From here on, y"
-chunk_238050,1,0.9999999577702434,s the following sections of the book hel
-chunk_238500,0,0.9999760236906714,hoose a path). If this gets too overwhel
-chunk_238950,0,0.9945250242509514,on in this chapter demonstrates an alter
-chunk_239400,0,0.6233402028027047,ers will build upon your current applica
-chunk_239850,2,0.9996283595774615,ostly a matter of what fits best for dev
-chunk_240300,0,0.9957667137130815, our React application. If you don’ t wa
-chunk_240750,2,0.9603261743901663, pre-configured in Vite. If you’re in co
-chunk_241200,0,0.9999999997539533,'; ReactDOM.createRoot(document.getEleme
-chunk_241650,0,0.8268203980479906, sans-serif ;   -webkit- font-smoothing 
-chunk_242100,2,0.9997063809291626,milar to the standard CSS you may have a
-chunk_242550,2,0.5571213934778476,mit}       />       {stories.isError && 
-chunk_243000,0,0.989353732809361,rt axios from 'axios'; import './App.css
-chunk_243450,2,0.945661427613988,ight : 300;   letter-spacing : 2px; } Yo
-chunk_243900,2,0.9999982520520447,a>     </span>     <span style={{ width:
-chunk_244350,0,0.8999620591097478,"attribute for HTML  elements. In JSX, st"
-chunk_244800,0,0.9999335928553242,"In your sr c/App.css  file, define the n"
-chunk_245250,0,0.9807954825986265,psis ; } .item > span > a {   color: inh
-chunk_245700,0,0.8340822313212032,.button:hover {   background : #171212; 
-chunk_246150,2,0.9999924411683495,ent: src/App.jsx const SearchForm = ({ .
-chunk_246600,2,0.9999901164395482, the SearchForm component a flexible sty
-chunk_247050,2,0.9929939300644177,ue={value}         onChange={onInputChan
-chunk_247500,2,0.9961196291487828,or : transparent ;   font-size : 24px; }
-chunk_247950,2,0.9999072623207903,"e Style Sheets), styling can become more"
-chunk_248400,0,0.9353016429226086,his section . OceanofPDF .comCSS Modules
-chunk_248850,0,0.9999272871735094,"p.module.css , start with the first CSS "
-chunk_249300,0,0.9403454945406177, JavaScript object where the name of the
-chunk_249750,0,0.98496130875319,yles.container}>       <h1 className={st
-chunk_250200,2,0.9919820908845338,; }; There are various ways to add multi
-chunk_250650,2,0.999988688540737,ents}</span>     <span style={{ width: '
-chunk_251100,0,0.9372814412020616,ures like CSS nesting (see the previous 
-chunk_251550,0,0.9999730753590211,{   background : transparent ;   border:
-chunk_252000,2,0.9999349024708959,access the style with styles['button_sma
-chunk_252450,2,0.9927048529704829,ng>     </InputWithLabel>     <button   
-chunk_252900,0,0.9904695918587737,ependency: src/App.jsx import clsx from 
-chunk_253350,2,0.9900134688693363,"tton, { [styles.buttonLarge ]: isLarge }"
-chunk_253800,2,0.7317288386694044,); }; And finish up the remaining style 
-chunk_254250,0,0.9999898929525585,ection applies: some of these styles lik
-chunk_254700,2,0.9997823895987437,ed. Exercises: Compare your source code 
-chunk_255150,0,0.5796262839738658, command line: Command Line npm install 
-chunk_255600,0,0.9999999795104773,"background: linear-gradient(to left, #b6"
-chunk_256050,2,0.984642903918048,) as functions. Oncea function is called
-chunk_256500,2,0.9930729618367564,g went wrong ...</p>}       {stories.isL
-chunk_256950,2,0.9524083846168764,g a dedicated styled component for it. S
-chunk_257400,0,0.9999997419308264,"     <StyledColumn width=""10%"">       <S"
-chunk_257850,0,0.9997695704115248," arrow function’ s body , it becomes a c"
-chunk_258300,0,0.9998937262059918,ponents by default. Nested elements are 
-chunk_258750,0,0.9976904671172206,ibrary’ s function. The specialized butt
-chunk_259200,2,0.9999902902172153,ing form element is used in the real HTM
-chunk_259650,2,0.9997265319572506,d={!searchTerm}>       Submit     </Styl
-chunk_260100,2,0.9602688447729618, </>   ); }; And its matching styled com
-chunk_260550,0,0.9971716475252737,ctual React components. Styled Component
-chunk_261000,2,0.9922215250685813,their approaches (e.g. Styled Components
-chunk_261450,2,0.9999889980247029,using Styled Components with the help of
-chunk_261900,0,0.9960683008452309,ilds on the “CSS in React” we covered ea
-chunk_262350,0,0.999998365713736,gin-svgr --save-dev Next the new plugin 
-chunk_262800,0,0.9999999999996305,"encoding=""iso-8859-1""?> <!-- Generator: "
-chunk_263250,0,1.0,""">   <g>     <path d=""M113.636,272.638c-"
-chunk_263700,0,0.9999489010872794,".958l89.173,89.209\ l158.9-158.97l-40.34"
-chunk_264150,0,0.9998930883602031,ck } from './check.svg'; Here we are imp
-chunk_264600,2,0.9995813320929261,idth: '30%' }}>{item.author}</span>     
-chunk_265050,0,0.9997731189555145,you can give your SVG icon in the button
-chunk_265500,0,0.9990992387378492,"d tools like Webpack, because you have t"
-chunk_265950,2,0.9998503497759444,ck for this section . OceanofPDF .comRea
-chunk_266400,0,0.9756121132638089,ce. Typed programming languages like Typ
-chunk_266850,0,0.9999999994624602,dvanced) This section is just here for t
-chunk_267300,0,0.8467398221903725,ll briefly look at React’ s Strict Mode 
-chunk_267750,2,0.9025542251204539,ng in the browser ’s developer tools. Ho
-chunk_268200,0,0.9994777449742713, => {   ...   React.useEffect(() => {   
-chunk_268650,0,0.9999994554701804,ehavior (even for seasoned React develop
-chunk_269100,0,0.9999999999999716,", which means that the result of a succe"
-chunk_269550,0,0.9982082685620804, removed automatically . Both of these b
-chunk_270000,0,0.9987568045666738,oduction environment: src/main.jsx React
-chunk_270450,2,0.9373766561457894,(updating). By passing an empty dependen
-chunk_270900,2,0.9708504229270281,"rageState = (key, initialState) => {   c"
-chunk_271350,2,0.9999850767813246, for the initial rendering of the compon
-chunk_271800,2,0.9752013196040544,eact’ s useRef Hook which keeps its ref.
-chunk_272250,0,0.9953177742267818, (!isMounted.current) {       isMounted.
-chunk_272700,0,0.9985052250122778,false  boolean called isMounted . As a r
-chunk_273150,0,0.999975625890546,ef fect function for the first time rend
-chunk_273600,2,0.9999433630420463,only on update . Read more about running
-chunk_274050,0,0.9959807493102949,        <Item           key={item.object
-chunk_274500,0,0.9999903842503849, the console.log()  on the left-hand sid
-chunk_274950,0,0.9964650992594469," the App component renders, followed by "
-chunk_275400,0,0.8846199866480802,blems with your implementation in order 
-chunk_275850,2,0.9877647014572173,"nce the data arrives, both components re"
-chunk_276300,2,0.9980521880868035,ualization B:App B:List What’ s striking
-chunk_276750,2,0.7732627791978772,"e-renders, its descendent components re-"
-chunk_277200,0,0.9763831972203844,er if they are not af fected by an updat
-chunk_277650,2,0.9976495255938334,             onRemoveItem={onRemoveItem}
-chunk_278100,2,0.9999918272586272,"App component re-renders, it always crea"
-chunk_278550,2,0.9985435063497489,);   ...   console.log('B:App');   retur
-chunk_279000,2,0.9521269730312805,", and only the App component re-renders "
-chunk_279450,0,0.9978634267184401,"n, sometimes memo  alone doesn’ t help, "
-chunk_279900,2,0.9502249244120351,performance-intensive computations in ou
-chunk_280350,0,0.9985104062487079,mments(stories);   return (     <div>   
-chunk_280800,2,0.9783516956828239,alue of summed comments on every render 
-chunk_281250,2,0.6766277814635332,We can tell React to only run a function
-chunk_281700,0,0.9999989753544716,"ncy array , here stories , has changed. "
-chunk_282150,2,0.9651099578159571, React’ s rendering mechanism is pretty 
-chunk_282600,0,0.9451026677583119,r ’s developer tools and try its various
-chunk_283050,2,0.9996559604123494," s the case, apply performance optimizat"
-chunk_283500,0,0.9999748089772985,ypeScript for JavaScript and React has m
-chunk_283950,0,0.9915011731024781,ing code blocks or performing a lar ger 
-chunk_284400,0,0.9985818667068016, install typescript @types/react @types/
-chunk_284850,0,0.9999763185784054,"{     ""target"" : ""ES2020"" ,     ""useDefi"
-chunk_285300,0,0.9994956295618198,"UnusedParameters"" : true,     ""noFallthr"
-chunk_285750,0,0.9999900880983822,"ude"" : [""vite.config.ts"" ] } If you have"
-chunk_286200,0,0.9218364906623467,    'react-refresh/only-export-component
-chunk_286650,0,0.9956870489522456," type=""image/svg+xml"" href=""/vite.svg"" /"
-chunk_287100,0,0.9999933238164292,the command line. You may encounter comp
-chunk_287550,0,0.996054205615458,"tart, however , we are missing type defi"
-chunk_288000,0,0.999999998834511,ing error: Argument of type ‘HTMLElement
-chunk_288450,2,0.9859404298029137,” by using a so called type assertion (h
-chunk_288900,2,0.9540810537422665,ents as string primitives: src/App.tsx c
-chunk_289350,2,0.7732360889346239,e updater function) that takes a new val
-chunk_289800,2,0.9878084404524056,ld already infer this type from React’ s
-chunk_290250,2,0.9983865870130063, );   React.useEffect(() => {     localS
-chunk_290700,0,0.9998194964916275,"t string primitive, then the returned cu"
-chunk_291150,0,0.9996483055793308,ook potential types (here with a so call
-chunk_291600,2,0.937901267948768,"onents, like in our case, there are mult"
-chunk_292050,2,0.9986190624854683,objectID: string;     url: string;     t
-chunk_292500,2,0.998698697276067,"stom Story  type outside the component, "
-chunk_292950,2,0.9988828029415733,"t and returns nothing. Next, clean up th"
-chunk_293400,2,0.887659977832189,following implementation: src/App.tsx ty
-chunk_293850,2,0.9997603217182011, that development becomes increasingly d
-chunk_294300,2,0.9999355344018421,   };   ... };The reducer function manag
-chunk_294750,2,0.9893361102954715,on: StoriesAction ) => {   ... }; The Ac
-chunk_295200,2,0.9999968218463718,chSuccessAction = {   type: 'STORIES_FET
-chunk_295650,2,0.9792202325863569," current state, action, and returned sta"
-chunk_296100,2,0.9953883324908284,e SearchFormProps = {   searchTerm: stri
-chunk_296550,2,0.9999889700889003,"more specific type. Next, going up to th"
-chunk_297000,2,0.8259493314343967,. }; All that’ s left is the InputW ithL
-chunk_297450,2,0.9957857335085359,urned ref type safe and typed it as read
-chunk_297900,2,0.8997498486653127,ring;   type?: string;   onInputChange: 
-chunk_298350,0,0.9796878151378555,e children  prop has a lot of TypeScript
-chunk_298800,2,0.9398403939962703,"s, custom React hooks, or React function"
-chunk_299250,2,0.999937298740524,p of your head. While you continue with 
-chunk_299700,0,0.9998660035065535,ity and functionality before using it in
-chunk_300150,0,0.9999991595109471, While unit tests are quick and easy to 
-chunk_300600,2,0.9843900501542822, component-specific testing technique ca
-chunk_301050,0,0.8256868533238948,"ing events like mouse clicks, and select"
-chunk_301500,0,0.994781873173821,"ally: package.json ""dev"": ""vite"", ""build"
-chunk_301950,0,0.9963157315434881,suites and test cases are commonly used 
-chunk_302400,0,0.9999480904229932,    expect(false).toBe(false);   }); });
-chunk_302850,0,0.9995718679110466, sense to use them with test suites: Cod
-chunk_303300,0,0.9830706495141894, ✓ true to be true      ✓ false to be fa
-chunk_303750,0,0.957345259081446,"” to see all of them), such as pressing "
-chunk_304200,0,0.999968574983035,ailed test in red: Command Line Assertio
-chunk_304650,0,0.9978950527678204,"show help, press q to quit Familiarize y"
-chunk_305100,0,0.9993467420813296, toBe  is only one of many available ass
-chunk_305550,0,0.8937269180951066,npm run test ) and one for developing yo
-chunk_306000,0,0.9999999995364135,"tions in isolation. For functions, unit "
-chunk_306450,2,0.9998106127853308, The exercises at the end of this chapte
-chunk_306900,2,0.9999912035879457,"   SearchForm,   InputWithLabel, } from "
-chunk_307350,2,0.9310679796419405," points: 4,   objectID: 0, }; const stor"
-chunk_307800,2,0.9999932532481289,an use to perform the rest as exercise y
-chunk_308250,2,0.9999996581672421,State = // TODO: the expected state     
-chunk_308700,0,0.9990708353947584,"state = { data: stories, isLoading: fals"
-chunk_309150,2,0.994390118794731,"the objects are the same, however , thei"
-chunk_309600,0,0.9999858501402433,n);     const expectedState = {       da
-chunk_310050,0,0.995323078625408,you can still use toBe . Also note that 
-chunk_310500,0,0.9951602542344935,e expect the following new state. Every 
-chunk_310950,0,0.9999639854012945,ons  like toBe  and toStrictEqual . Unit
-chunk_311400,0,0.9997836841658,onent has to end up somewhere (e.g. head
-chunk_311850,0,0.7973836830755828,"gins: [react()],   test: {     environme"
-chunk_312300,0,0.979161629929164,s import { defineConfig } from 'vite'; i
-chunk_312750,0,0.9999208054075327,"* as matchers  from ""@testing-library/je"
-chunk_313200,2,0.9132999217580927,"est'; import {   render,   screen,   fir"
-chunk_313650,2,0.999831093453719, – one of our previously defined stories
-chunk_314100,0,0.9979791883694576," test file), so we can use the debug  fu"
-chunk_314550,0,0.9070352491736031,ents. The output should be similar to th
-chunk_315000,2,0.9629472674399452, </div> </body> Here you should form the
-chunk_315450,0,0.8606920219746386,"  it('renders all properties', () => {  "
-chunk_315900,0,0.9999999950921392,ent with the text “Jordan Walke” is in t
-chunk_316350,2,0.8751772964906844,etByText  function returns the element w
-chunk_316800,0,0.9989716851554233,);     expect(screen.getByRole('button')
-chunk_317250,0,0.9995864903473687, if you provide a role that’ s not avail
-chunk_317700,0,0.9999960508216181,ble to find an accessible element with t
-chunk_318150,2,0.9240960074000985,"ected. For example, the Item component’ "
-chunk_318600,2,0.9906952690826312,"vi } from 'vitest'; ... describe('Item',"
-chunk_319050,0,0.9126682150027517, }); }); Vitest lets us pass a test-spec
-chunk_319500,0,0.9988129888563114,"ledWith , to verify ar guments that are "
-chunk_319950,2,0.9983224774115128,tested the Item component’ s input and o
-chunk_320400,2,0.9999872324542091,erything all together . We will test the
-chunk_320850,2,0.9983652521568314,"rmProps = {     searchTerm: 'React',    "
-chunk_321300,2,0.9982785389758597,om R TL is the perfect candidate to retu
-chunk_321750,0,0.9999888787079917,ich is the displayed value in our test a
-chunk_322200,2,0.9994982605770394,o assert the rendered label: src/App.tes
-chunk_322650,0,0.9999999994670361,r components that render multiple labels
-chunk_323100,2,0.9999746566342625,s it would be more interesting to test t
-chunk_323550,2,0.9999701866488203," onSearchInput on input field change', ("
-chunk_324000,2,0.9994670282944962,Props.onSearchSubmit).toHaveBeenCalledTi
-chunk_324450,2,0.9704751126769302, t care about the component tree either 
-chunk_324900,0,0.9159224620550751,onent. Real testing with R TL starts fur
-chunk_325350,2,0.9937554874925579,ssertions more bullet proof. Add tests f
-chunk_325800,2,0.9677387484675815,kes requests for data from a remote API 
-chunk_326250,2,0.9998156136628559, and assume the correct data is mocked f
-chunk_326700,2,0.9641742995236943,omponent’ s initial render . With async/
-chunk_327150,0,0.9202824516449771,(<App />);     screen.debug();     await
-chunk_327600,2,0.9966997793325042,"tching data', async () => {     const pr"
-chunk_328050,0,0.9999999999893987, queryByText  instead of the getByText  
-chunk_328500,2,0.9999585430684199,"atch a part of it. Next, we can assert w"
-chunk_328950,2,0.9831793891019605,romise);     expect(screen.queryByText(/
-chunk_329400,2,0.9958091076906682,tch block: src/App.test.jsx describe('Ap
-chunk_329850,0,0.9999915551860167,oBeNull();       expect(screen.queryByTe
-chunk_330300,0,0.8158392070478641,w the initial data fetching works for ou
-chunk_330750,2,0.8762970488486468,".test.jsx describe('App', () => {   ... "
-chunk_331200,2,0.9894632405553807,Text('Dismiss')[0]);    expect(screen.ge
-chunk_331650,2,0.517997150363951,reactPromise = Promise.resolve({       d
-chunk_332100,0,0.9999978506605279,   if (url.includes('React')) {         
-chunk_332550,2,0.9885213845119695,elated stories). If we provide an incorr
-chunk_333000,0,0.6238553357575729,});     // Initial Render     render(<Ap
-chunk_333450,2,0.8522377976199929,'Brendan Eich')).toBeNull();   }); }); W
-chunk_333900,2,0.9982414600498258,n the actual input field: src/App.test.j
-chunk_334350,2,0.9875207135726553,   target: {         value: 'JavaScript'
-chunk_334800,2,0.9933988847676101,"pp.test.jsx describe('App', () => {   .."
-chunk_335250,2,0.8086310060775976,ct(       screen.queryByText('Dan Abramo
-chunk_335700,2,0.9762876497275752,m the API – with the tools we’ve used. R
-chunk_336150,0,0.9999999406761919, changes from this section . Read more a
-chunk_336600,0,0.9999997911848131,apshot is compared to the same snapshot 
-chunk_337050,0,0.7730528907512603,"('SearchForm', () => {   ...   it('rende"
-chunk_337500,2,0.9997702790607531,"ext, head to src/App.jsx  file and chang"
-chunk_337950,0,0.9999999998323403,erm}>       Submit     </button>  </form
-chunk_338400,0,0.9909905513046773,"command line. To fix it, we would go int"
-chunk_338850,0,0.9956751913270998, control platforms like git. This is how
-chunk_339300,2,0.971990109565732, section .Add one snapshot test for each
-chunk_339750,0,0.9859289823291384,metimes also called modules). For learni
-chunk_340200,2,0.9960359457706004, note that there’ s no right way to stru
-chunk_340650,2,0.9800383914150853, of our components in the sr c/ folder: 
-chunk_341100,2,0.9999994973624509,"x const List = ({ list, onRemoveItem }) "
-chunk_341550,0,0.8339461927377174,"on"" onClick={() => onRemoveItem(item)}> "
-chunk_342000,2,0.9941869045730009," ({   id,   value,   type = 'text',   on"
-chunk_342450,2,0.9997663035449291,   />     </>   ); }; export { InputWith
-chunk_342900,2,0.9999819652873311,"ut,   onSearchSubmit, }) => (   <form on"
-chunk_343350,0,0.9969934733487709," InputW ithLabel, because it’ s only use"
-chunk_343800,2,0.7034301694847566, a component (e.g. Item) is dedicated to
-chunk_344250,0,0.9999756164944443,e dif ferent responsibilities like styli
-chunk_344700,0,0.9999994895263906," e, especially once the project grows. U"
-chunk_345150,2,0.6323799557636287,-- test.js -- types.js - shared/ -- Butt
-chunk_345600,0,0.993190190346737,"/file structures. However , in the exerc"
-chunk_346050,2,0.9887100817040303,current folder structure if you feel con
-chunk_346500,0,0.51623433369062,these tasks without the optional hints  
-chunk_346950,2,0.8650918645449962,"rting of each property by title, author "
-chunk_347400,2,0.9944334400547924,propriate sort function on the list . Us
-chunk_347850,2,0.9922528883352382,lex' }}>       <span style={{ width: '40
-chunk_348300,2,0.9996928040372639,e for the most basic layout. To match th
-chunk_348750,2,0.9999991607005794,idth: '10%' }}>{item.points}</span>     
-chunk_349200,2,0.9999864716875114,e the new sort state. This can also be d
-chunk_349650,2,0.9994580978660086, React.useState('NONE');   const handleS
-chunk_350100,2,0.9997375212931855,    <ul>       <li>         <span>      
-chunk_350550,2,0.9958221256801402,"span>           <button type=""button"" on"
-chunk_351000,2,0.5260716297080746,"Script isn’ t trivial, because every Jav"
-chunk_351450,2,0.9996105004265224,rom 'react'; import axios from 'axios'; 
-chunk_351900,2,0.9999535739934491,"{   NONE: (list) => list,   TITLE: (list"
-chunk_352350,2,0.9981773620467371,"moveItem }) => {   const [sort, setSort]"
-chunk_352800,2,0.9570747789664391,: First we extracted the sort function f
-chunk_353250,0,0.99988555559965,r ’s source code . Recap all the source 
-chunk_353700,2,0.8175033500498932,"re works, but the ordering only includes"
-chunk_354150,2,0.9994901728244857,e sort function from the dictionary with
-chunk_354600,2,0.9996984041554525,"State({     sortKey: 'NONE',     isRever"
-chunk_355050,2,0.9999831275405086,);  const handleSort = (sortKey) => {   
-chunk_355500,2,0.9998953401555944,"const List = ({ list, onRemoveItem }) =>"
-chunk_355950,2,0.8660541894438237,e reverse sort is now operational! Congr
-chunk_356400,0,0.9950728447272963,alue pair and just write the name: Code 
-chunk_356850,2,0.9974746823340274,"know , sort the list by “T itle” and sea"
-chunk_357300,2,0.9986011998145834,"hich hit the API, and provide a button t"
-chunk_357750,2,0.9997186728689927,e last five URLs from urls  can be used 
-chunk_358200,2,0.9980529759491621,ng the current url state for data fetchi
-chunk_358650,2,0.9999981161721914,"      type: 'STORIES_FETCH_SUCCESS',    "
-chunk_359100,2,0.9999773174918474, {     const url = `${API_ENDPOINT}${sea
-chunk_359550,2,0.9999618392545995,{   ...   const handleLastSearch = (url)
-chunk_360000,2,0.9998779100686083, whole URL  of the last search in the bu
-chunk_360450,2,0.9274176812964041,) => (         <button           key={se
-chunk_360900,2,0.9972971903760236,m for each url within the array’ s map m
-chunk_361350,2,0.9999873652542954,te a new url to the list of urls  to tri
-chunk_361800,2,0.9999988767785679,ction: src/App.jsx const getUrl = (searc
-chunk_362250,2,0.999916470596513, used somewhere else in the App componen
-chunk_362700,2,0.9958750887778196,is used for each button element as key a
-chunk_363150,2,0.9991429489729492,...     </div>   ); }; It’s not the perf
-chunk_363600,2,0.9999764671896425, Searching twice for “React” shouldn’ t 
-chunk_364050,2,0.9991649735688466,"tead of five by removing the last one, i"
-chunk_364500,2,0.9974029084270037, searches into one button if they follow
-chunk_364950,0,0.9984299658557511,rm = result[result.length - 1];       if
-chunk_365400,2,0.9999841835193856,s search term is dif ferent from the cur
-chunk_365850,2,0.9999375386233688,eLastSearch = (searchTerm) => {     setS
-chunk_366300,2,0.99999601575329,LastSearch={handleLastSearch}       />  
-chunk_366750,0,0.9999999999997442, knowledge was needed to accomplish it. 
-chunk_367200,0,0.9893438656461336,ection . Read more about grouping in Jav
-chunk_367650,0,0.9999985927875581,"operty , which is 0 in the first respons"
-chunk_368100,0,0.9978456699751508, one of the buttons leads to fetching an
-chunk_368550,0,0.9902137018417889,lity for fetching succeeding pages. Impl
-chunk_369000,2,0.920951314366296,nt so it can deal with paginated data la
-chunk_369450,2,0.9862446789511407, (searchTerm) =>   `${API_BASE}${API_SEA
-chunk_369900,2,0.8703436616815452,"r API endpoint, which is no longer in ou"
-chunk_370350,2,0.9757058810551003,e page  follow it: src/App.jsx const ext
-chunk_370800,2,0.9973298963367859,url https://hn.algolia.com/api/v1/search
-chunk_371250,2,0.9876457834496649,l);       dispatchStories({         type
-chunk_371700,2,0.999872151985338,   ...     case 'STORIES_FETCH_SUCCESS':
-chunk_372150,0,0.9481515492023045,"0, isLoading: false, isError: false }   "
-chunk_372600,2,0.998022273779879,>   `${API_BASE}${API_SEARCH}?${PARAM_SE
-chunk_373050,2,0.9999493607606592,"rch = (searchTerm, page) => {     const "
-chunk_373500,2,0.9999979587323311,: src/App.jsx const App = () => {   ... 
-chunk_373950,0,0.999998600358352,       More       </button>     </div>  
-chunk_374400,0,0.8287318622350742,"new data , concatenating the paginated l"
-chunk_374850,0,0.5790869980215739,".page,       };     case 'STORIES_FETCH_"
-chunk_375300,2,0.96671119280225,– which is an empty list in the beginnin
-chunk_375750,0,0.9953801931464512,"(         <button type=""button"" onClick="
-chunk_376200,0,0.9999999938379744,s from this section . Revisit the Hacker
-chunk_376650,0,0.9999758587699112,"ton, how would you implement infinite pa"
-chunk_377100,2,0.952512440989158, to deploy a React application to produc
-chunk_377550,0,0.9999999999999432,serving it on localhost on your local ma
-chunk_378000,0,0.9999999998744329, called minification at work which reduc
-chunk_378450,2,0.6004044932783089,e engaging in the real thing. On the com
-chunk_378900,2,0.8050603203241032,comDeploy to Firebase After we’ve built 
-chunk_379350,0,0.9999987726784951,base-tools Using a global installation o
-chunk_379800,0,0.9999999314218281,irebase account (Google account): Comman
-chunk_380250,0,0.9999999657903237, features: Command Line firebase init Th
-chunk_380700,0,0.9999999999996874,tHub Action deploys  ◯ Storage: Configur
-chunk_381150,0,0.9999925267977547,roject. ? Please select an option:   Use
-chunk_381600,0,0.9999722288121128,er: Command Line ? What do you want to u
-chunk_382050,0,0.9999988818068742,"ion, we want to redirect the user to the"
-chunk_382500,0,0.9999656137405776,rebase deploy After a successful deploym
-chunk_382950,0,0.9999827305548946,d link navigates to your deployed React 
-chunk_383400,0,0.9958300574586014,ase deploy . Exercises: Read more about 
-chunk_383850,1,0.9999999999994031,"eading it, and that it helped you gain t"
-chunk_384300,0,0.7720453779888868,s to showcase it. I am always interested
-chunk_384750,0,0.9989956800151288,tiple URLs. When you introduce routing t
-chunk_385200,0,0.9999967124893809,atabase without writing a backend applic
-chunk_385650,0,0.9999988170189801," In “The Road to GraphQL” , I teach you "
-chunk_386100,2,0.992980100075946,gement solutions for React. I explore th
-chunk_386550,0,0.9999783692833912,if you haven’ t already . It will help o
-chunk_387000,2,0.9756334493218958,"ing and integration testing , especially"
-chunk_387450,0,0.9999843668019684, introduce UI component libraries like M
-chunk_387900,1,0.9999882112629417,nt library should become easier . React 
-chunk_388350,1,0.9999999999980957,velopment and software engineering. You 
+chunk_000000,2,0.9999976528069943,The Road to React The React.js in JavaSc
+chunk_000450,2,0.9999767562663692,til you have the right book and build tr
+chunk_000900,0,0.9995881430726857,t Declaration Handler Function in JSX Re
+chunk_001350,4,0.9748304900848453,-Fetching in React Memoized Functions in
+chunk_001800,2,0.9039185033946333,ches Paginated Fetch Deploying a React A
+chunk_002250,2,0.999999362890652,ct continues to reinvent itself while pu
+chunk_002700,2,0.999999924872614,ct without complex tooling. The book cov
+chunk_003150,2,0.9998988330441513,"lications. Ultimately , you’ll learn to "
+chunk_003600,3,0.9999969379853992,ng JavaScript. Following the completion 
+chunk_004050,3,0.9999999999994884,ite. Positive feedback from readers seek
+chunk_004500,3,0.9999999978444691,bout collaborating with me can be found 
+chunk_004950,3,1.0, Is the learning material up-to-date? Un
+chunk_005400,3,1.0,my website. Since I use Amazon as one wa
+chunk_005850,3,1.0,is the print version so large? If you’ve
+chunk_006300,3,0.9999034994424468,t have many pages? The print version’ s 
+chunk_006750,3,0.9999999962662685,which this book is written and structure
+chunk_007200,3,0.9999980144693653,"immersive learning experience, I’ve take"
+chunk_007650,2,0.9999856452306821,aScript Beginners JavaScript beginners w
+chunk_008100,2,0.9999289923201955,wledge in this book though. JavaScript V
+chunk_008550,2,0.9999940055516887,siasts JavaScript enthusiasts with knowl
+chunk_009000,2,0.9741930081923148,"e, you should be more familiar than othe"
+chunk_009450,2,0.9999903700446408,"t fundamentals, you should be good to ge"
+chunk_009900,2,0.9995110900600361, application. Every section explains one
+chunk_010350,3,0.9999999999995737," domain, because it attempts to teach as"
+chunk_010800,3,0.9999999999999716,"l, it’ s possible to read from section t"
+chunk_011250,3,0.9999999999964473,"ot hesitate to underline paragraphs, to "
+chunk_011700,3,0.9999999949141625,rcise on the side to write down your lea
+chunk_012150,3,0.9999999999999147,".Do not just copy paste code, instead ty"
+chunk_012600,3,0.99999999999946, So get your hands dirty and do more cod
+chunk_013050,3,0.9999999999998863,chance to present you the solution. Only
+chunk_013500,2,0.9923781860085028,"afterwards, code even a bit more if you "
+chunk_013950,2,0.9877691779623754,rough the creation of your first React p
+chunk_014400,2,0.9999400759427651,llo React Single-page applications ( SPA
+chunk_014850,3,0.9998291344760691,Let’s take a trip back in time before th
+chunk_015300,3,0.9994739847651958, this sequence of events again. In this 
+chunk_015750,3,0.9999984176473915,e focus from the server to the client. I
+chunk_016200,2,0.9982000987508426,r JavaScript file. Following a network a
+chunk_016650,2,0.9997646641052322,"avaScript, neatly structured into folder"
+chunk_017100,2,0.9998770601455291,ML  and managing user interactions with 
+chunk_017550,2,0.9999765042080627,"ework. Featuring a streamlined API, a fl"
+chunk_018000,4,0.94857776686917,ack for this section . OceanofPDF .comRe
+chunk_018450,3,0.9999999998598526,editor (e.g. Sublime Text) and a command
+chunk_018900,3,0.9999994889228558,etails and I keep it separate from the b
+chunk_019350,3,0.999999997978108,"ations professionally , a local setup wi"
+chunk_019800,3,0.9999807955154636,’ve provided a short guide  on how to us
+chunk_020250,3,0.9999999998287024,can be libraries or whole frameworks. We
+chunk_020700,2,0.9999205988160796,sure that your installation is the most 
+chunk_021150,2,0.9999646489292343,’ll use Vite to set up our React applica
+chunk_021600,2,0.9999557419486579,"environment), and a bundler , which outp"
+chunk_022050,2,0.9981829858021679,d for this book) or React TypeScript (ad
+chunk_022500,2,0.9987972778822699," In a previous section, you have install"
+chunk_022950,2,0.9998961051309078,current folder use mkdir <folder_name>  
+chunk_023400,2,0.9998552571128904, + TypeScript project if you feel confid
+chunk_023850,2,0.9996854069504068,"navigating into the folder , installing "
+chunk_024300,2,0.9998613747004249," , for the rest of this section, we will"
+chunk_024750,2,0.9994327798439547,src/ ----assets/ ------react.svg ----App
+chunk_025200,3,0.9995356130282402,de/npm. package-lock.json:  This file in
+chunk_025650,3,0.9999776181883777,all folders and files that shouldn’ t be
+chunk_026100,2,0.9995170134930921,g.js:  A file to configure Vite. If you 
+chunk_026550,2,0.9994111740797157,ng the project for production. index.htm
+chunk_027000,2,0.999402841990813,plement React components. It will be use
+chunk_027450,2,0.9999299241432361,style your overall application and compo
+chunk_027900,3,0.9998534275023762,"sion: package.json ""dev"": ""vite"", ""build"
+chunk_028350,3,0.9999999999973568,rrors npm run lint # Builds the applicat
+chunk_028800,2,0.9989083688060408, former is not optimized for production 
+chunk_029250,4,0.6339859620341474,an be used later on to deploy your appli
+chunk_029700,2,0.9984045970374615,: Leave feedback for this section . Ocea
+chunk_030150,3,0.9821683994717387,ogo  from './assets/react.svg' ; import 
+chunk_030600,3,0.9960782610773793,"o }             className =""logo react"" "
+chunk_031050,2,0.999834039597421,ogos to learn more       </p>     </>   
+chunk_031500,2,0.9998007558874118,nts into multiple files. Let’s start by 
+chunk_031950,2,0.997375479520145,un dev  on the command line and check wh
+chunk_032400,0,0.9997691859975583,se . A component has to start with a cap
+chunk_032850,0,0.507020264410914,". In the upcoming sections, you will lea"
+chunk_033300,0,0.9930006070812076,wser . Like any other JavaScript functio
+chunk_033750,0,0.9991574320141203,"s function runs, which shouldn’ t be som"
+chunk_034200,3,0.9906829281140069,ause it has to display something dif fer
+chunk_034650,0,0.9910834334245007,ove it outside. Therefore it will be def
+chunk_035100,3,0.9979856373761591,not need anything from within the functi
+chunk_035550,2,0.9977273832030994,ariable to use. Optional: Leave feedback
+chunk_036000,3,0.7671216566898381,nd JavaScript. Let’ s see how this works
+chunk_036450,0,0.9992731711506008,"change the variable in the source code, "
+chunk_036900,0,0.9997627156876498, development server which makes this beh
+chunk_037350,4,0.9989906736678572,r by using dedicated HTML  attributes fo
+chunk_037800,0,0.9926529242428405,"d label combination, we specified three "
+chunk_038250,0,0.9854194544942106,al HTML  attributes caused by internal i
+chunk_038700,0,0.9994580521879851,es all HTML  attributes to JavaScript wh
+chunk_039150,0,0.9894555359413029,n order to contrast how HTML  and JavaSc
+chunk_039600,4,0.9963807242293551, the task. Before we have defined a Java
+chunk_040050,4,0.9999337425567053,""" />     </div>   ); }export default App"
+chunk_040500,4,0.9933075231045478,"l htmlFor=""search"">Search: </label>     "
+chunk_040950,4,0.5200854849811056,Tools like Vite embrace the .jsx extensi
+chunk_041400,4,0.7881480178059265,pt. Whereas the previous way of thinking
+chunk_041850,2,0.997837537071081,thods of fered by React) which only allo
+chunk_042300,4,0.5574299274029859,"HTML. Every JavaScript data structure, f"
+chunk_042750,0,0.8628787268360869, in JSX. Advanced: Try to render a JavaS
+chunk_043200,0,0.9967442142182971, like. Question: Can JSX be directly ren
+chunk_043650,0,0.8645388279953085,.comLists in React When working with dat
+chunk_044100,0,0.9493483418744694,"bers = [1, 2, 3, 4]; const exponentialNu"
+chunk_044550,4,0.9669854203136492,yourself to render each object with its 
+chunk_045000,3,0.9999879652927737,pp() { ... } // note the ... as placehol
+chunk_045450,4,0.9971314552998836,hey don’t fit the desired naming convent
+chunk_045900,4,0.9914580072512498,"label>       <input id=""search"" type=""te"
+chunk_046350,0,0.8971544490992434,veloper in the end: just JS mixed with H
+chunk_046800,0,0.9800335812087547,e an id (here: objectId ): src/App.jsx f
+chunk_047250,4,0.7947678391861077,"keys, React may update the list inef fic"
+chunk_047700,4,0.9941203670568262,"s last resort, you can use the index of "
+chunk_048150,3,0.855848755131692," In addition, it can cause actual bugs i"
+chunk_048600,4,0.816437249433693,a> tag) that surrounds the title . Try i
+chunk_049050,4,0.9997478828351304,em.author}</span>               <span>{i
+chunk_049500,0,0.971363202611938," JSX be used to display elements, but al"
+chunk_049950,0,0.9073643340521691,"t, check out the author ’s source code h"
+chunk_050400,0,0.7921801977548154,nd return JSX elements for each item. Qu
+chunk_050850,0,0.9825987500249024,"rectly within JSX, but it’ s generally d"
+chunk_051300,0,0.9563413221104797,ionalities (e.g. rendering a list of ite
+chunk_051750,4,0.9783193419464523,.. ]; function App() { ... } function Li
+chunk_052200,0,0.9780893501206972, be used in the App component where we h
+chunk_052650,0,0.8146490649424762,ibuting to the greater good of a lar ger
+chunk_053100,4,0.9328234714738813,>       <h1>My Hacker Stories</h1>      
+chunk_053550,0,0.9876066195443298,. The following illustration assumes tha
+chunk_054000,0,0.999945987154492,component and sibling components  to eac
+chunk_054450,0,0.9759142731630622,ny child components. You can see how a R
+chunk_054900,0,0.9960448787923556,o extract a component from another compo
+chunk_055350,3,0.6171548619690689,t the author ’s source code . Recap all 
+chunk_055800,0,0.9998003196295553,Why is it beneficial to extract componen
+chunk_056250,3,0.9998625747734896,ponent to improve code or ganization. Qu
+chunk_056700,2,0.9837053499331876,an analogy and the terminology . We will
+chunk_057150,3,0.999998355852499,lows functional programming and object-o
+chunk_057600,3,0.999936298092875,d assigns them to the class instance whe
+chunk_058050,0,0.991943922912243,", one can create multiple instances of i"
+chunk_058500,0,0.9971681148607747,"t, which also has only one component dec"
+chunk_058950,0,0.9993304607769969,it as an element  anywhere in our JSX. T
+chunk_059400,0,0.9978915153456634,es it convenient to demonstrate their si
+chunk_059850,0,0.9495106321155284,st component its own list  variable. Opt
+chunk_060300,2,0.9984814853407381, component hierarchy would not render . 
+chunk_060750,2,0.9853203554715071,   <React.StrictMode >     <App />   </R
+chunk_061200,2,0.8602622074734161,e React inserts itself into the HTML  to
+chunk_061650,2,0.8294248711147025,X as parameter which usually represents 
+chunk_062100,2,0.999305011571713,"a React application from scratch, there "
+chunk_062550,2,0.9985715004964584,file and a lar ge JavaScript file? You c
+chunk_063000,0,0.9589919925797955,t where React inserts itself. From there
+chunk_063450,0,0.9921530383750975,ys of declaring functions in JavaScript 
+chunk_063900,0,0.9991970881886145,ns to arrow function expressions. While 
+chunk_064350,0,0.792701761821788,"ction components can be refactored, but "
+chunk_064800,3,0.9999998258619353," in between, you can remove the block bo"
+chunk_065250,4,0.9999674984305342, addOne = (count) => count + 1; Let’s se
+chunk_065700,4,0.9516440789563152, App = () => (   <div>     ...   </div> 
+chunk_066150,0,0.5574480561646951,s with curly braces over concise bodies 
+chunk_066600,3,0.9655556775648594,   // perform a task in between   return
+chunk_067050,3,0.9214639650109098,"ur component declaration more concise, y"
+chunk_067500,0,0.9634435482503066," are using TypeScript, check out the aut"
+chunk_067950,0,0.9993548791146677,ent() {...} . Question: How do you decla
+chunk_068400,0,0.6933710635998361,d in our project is the Search component
+chunk_068850,4,0.9996658358168569,tatement: src/App.jsx const Search = () 
+chunk_069300,4,0.9999985730434082,  attribute (JSX named attribute) of the
+chunk_069750,0,0.9970612880769185," in a web browser , open the browser ’s "
+chunk_070200,0,0.9991330734462105,prevent the native browser behavior . Fo
+chunk_070650,0,0.9970810172135485,ss HTML  elements in JSX handler functio
+chunk_071100,0,0.9724513813686266,} /> // do this instead <input onChange 
+chunk_071550,0,0.9861226349285077,t onChange={handleChange} /> ). When dev
+chunk_072000,0,0.9729649032203408,"tion to the onChange  attribute, add a o"
+chunk_072450,0,0.8823584275439612,"ute, like onClick= {handleClick} . Quest"
+chunk_072900,3,0.9990138764246461,ler in JSX? Answer: Use an arrow functio
+chunk_073350,3,0.9993058244739034,or manipulate it. Question: How do you a
+chunk_073800,4,0.6322512895071941,: It stops the event from propagating up
+chunk_074250,0,0.9994562178165022,t maintainable with multiple variables a
+chunk_074700,4,0.9974447671736545,riptive name. Don’ t forget to refactor 
+chunk_075150,0,0.9800633134482932,"n Abramov, Andrew Clark',       num_comm"
+chunk_075600,4,0.9992111485507975, ... ];   return (     <div>       ...  
+chunk_076050,0,0.9914845910120208,(       <li key={item.objectID}>        
+chunk_076500,0,0.7535945522825904,"rror stating, “error ‘list’  is missing "
+chunk_076950,0,0.9826007434240687,embrace TypeScript in your React develop
+chunk_077400,0,0.9907142418339527, t know how to pass each item to the ext
+chunk_077850,4,0.9970235700403871,"rself after some time, check out how the"
+chunk_078300,0,0.9276111940192618,rget the key attribute which we introduc
+chunk_078750,0,0.7226926782573684,"d, you should see the list rendering aga"
+chunk_079200,0,0.9985399270108324, vehicle to share information from top t
+chunk_079650,0,0.999893926692843,r properties) are a mechanism for passin
+chunk_080100,0,0.8991571361554527,"nt? Answer: No, props are immutable. The"
+chunk_080550,4,0.9826890258049957,", but can also get mutated by using a fu"
+chunk_081000,4,0.9999989948669075, input field element in the Search compo
+chunk_081450,4,0.9798030808888744,  <p>         Searching for <strong>{sea
+chunk_081900,4,0.9962300949028748,eact from 'react'; ... const Search = ()
+chunk_082350,4,0.9993110849007605,React’ s useState  method takes an initi
+chunk_082800,4,0.9703836726372876,o update it (write). When the user types
+chunk_083250,0,0.9968025313765964,nto each of your components. For example
+chunk_083700,0,0.9946406741317115, changed. Now you have heard the terms r
+chunk_084150,0,0.9972335688686303,es a re- rendering of all the components
+chunk_084600,0,0.9998695837054791,y useState  hooks as you want in one or 
+chunk_085050,0,0.9920977160309116,and warnings to identify potential issue
+chunk_085500,0,0.9987814775776885,t state from its internal closure . This
+chunk_085950,0,0.9996585165237072,rce code . Recap all the source code cha
+chunk_086400,0,0.9996606217910304, How do you use useState to declare stat
+chunk_086850,0,0.9420834302936716,tate? Answer: Use the second entry retur
+chunk_087300,4,0.9040998739126995, an object allows you to manage multiple
+chunk_087750,0,0.9928446105836627,down as information from parent to child
+chunk_088200,4,0.9543489481363533,onent does not share its state with othe
+chunk_088650,0,0.9999936796081887,communicate to a child component via pro
+chunk_089100,4,0.9999999650982693,"handler (C), and calls back  to the plac"
+chunk_089550,4,0.9997496439358401,chTerm] = React.useState('');   const ha
+chunk_090000,0,0.9458549841363205, just a more specific type of an event h
+chunk_090450,0,0.9985807218523235,ssed as props from a parent component to
+chunk_090900,0,0.9993864235919259,e author ’s source code here. Revisit th
+chunk_091350,0,0.9999601773220728,"a prop, like <ChildComponent callback= {"
+chunk_091800,0,0.993189264503619," asynchronous, allowing for handling asy"
+chunk_092250,4,0.9995425825626667,n to use callback handlers for form subm
+chunk_092700,4,0.9999952192456073,"nt. So far , we have learned about how t"
+chunk_093150,4,0.9995143469573166,rriving searchTerm  in the App component
+chunk_093600,4,0.9999843323038253,in the Search component in the first pla
+chunk_094050,4,0.9999922454238652, the stories  before they are passed to 
+chunk_094500,4,0.9999773880555983,ies} />     </div>   ); }; const Search 
+chunk_094950,4,0.9992904643245923,ly passes up the event to the App compon
+chunk_095400,4,0.9998841255677176,the searchTerm  state down as props). Ru
+chunk_095850,4,0.9999343233833222,hich allows this particular component to
+chunk_096300,4,0.9999999947355178,nd the searchTerm  before consulting the
+chunk_096750,3,0.9999344408421842,h={handleSearch} />       <hr />       <
+chunk_097200,3,0.9981489817295849,oved: Code Playground const words = [   
+chunk_097650,3,0.9999999940269788,filter((story) =>     story.title.includ
+chunk_098100,4,0.9999920322325935,r the searchTerm  is present as string i
+chunk_098550,4,0.9999984662162941,pp = () => {   ...   const searchedStori
+chunk_099000,4,0.9091083763142099,"o the Search component. After all, knowi"
+chunk_099450,0,0.9997939383726583,all the source code changes from this se
+chunk_099900,0,0.9995730296993685,"e and manage state at a higher level, ma"
+chunk_100350,0,0.9988191311869208,te in a component? Answer: Lifting state
+chunk_100800,3,0.845194207576604,de how to update itsstate. Question: Is 
+chunk_101250,4,0.9991384474764656,nts come with their internal state which
+chunk_101700,4,0.9999943010626526," App component, use 'React'  as initial "
+chunk_102150,4,0.9999332084985633,do we see the changes reflected in it. T
+chunk_102600,4,0.9999999704517681,ovide the current state as value  to it:
+chunk_103050,4,0.9975743150782462,e={props.search}       onChange={props.o
+chunk_103500,4,0.983383173841349,. Earlier the HTML  element did its own 
+chunk_103950,0,0.9999545356151979,your source code against the author ’s s
+chunk_104400,0,0.999306758012111,Question: How do you create a controlled
+chunk_104850,3,0.748588494627342,hange handler to update the correspondin
+chunk_105300,0,0.9999626363842539, from parent to child down the component
+chunk_105750,0,0.999655241233411,anced props techniques that will make yo
+chunk_106200,0,0.9793421483288421,cessing an object’ s properties with mod
+chunk_106650,0,0.7911909867830367,ten a more straightforward and elegant a
+chunk_107100,4,0.9620761838676374,he destructuring of the props object wit
+chunk_107550,4,0.7281359179401998, be used conveniently in the component. 
+chunk_108000,4,0.6071235397787089,y destructuring the props  object righta
+chunk_108450,4,0.8972790774554991,ormation that is contained in the props 
+chunk_108900,4,0.9996310672126243, = ({ item }) => (   <li>     <span>    
+chunk_109350,0,0.9997440203428037,the code and the overall development exp
+chunk_109800,0,0.9702536713662467,"ignature, it isn’t directly used in the "
+chunk_110250,0,0.9985909545235,"e : 'Robin',   pet: {     name: 'Trixi',"
+chunk_110700,4,0.9809247393705042, to gather all the needed information of
+chunk_111150,0,0.9999386109756143,pan>     <span>{author}</span>     <span
+chunk_111600,3,0.5647144901937442, of clutter through indentations in the 
+chunk_112050,4,0.9999995734467916,property of the item  object: src/App.js
+chunk_112500,4,0.9990080366381268,span>       <a href={url}>{title}</a>   
+chunk_112950,0,0.9983451366422996,"tName : 'Robin',   lastName : 'Wieruch' "
+chunk_113400,4,0.969649026798414,in React’ s JSX. Instead of passing each
+chunk_113850,4,0.9999102771940832,"e, url, author, num_comments, points }) "
+chunk_114300,3,0.9960162250362616,n object destructuring: Code Playground 
+chunk_114750,3,0.999659566626382, mistaken with the spread operator . Whe
+chunk_115200,4,0.9999976723949063, as attribute/value pairs into the Item 
+chunk_115650,4,0.9586674602142617,an>     <span>{points}</span>   </li> );
+chunk_116100,0,0.999578077503156,"ot only for the props  object, but also "
+chunk_116550,4,0.6036712462238445," rest operators, which shouldn’ t be con"
+chunk_117000,4,0.9999848614455898,> ); const Item = ({ item }) => (   <li>
+chunk_117450,0,0.9996827565229405,ch are not familiar to everyone. After a
+chunk_117900,0,0.9994731501908389,gh the component to the next child compo
+chunk_118350,0,0.9999233456313468,erties from your props object. Use neste
+chunk_118800,0,0.9999777955557856,rator  and rest operator . Get a good se
+chunk_119250,0,0.99747475406739,’ s parameters? Answer: You can destruct
+chunk_119700,0,0.9997239568116794,"ps based on your component’ s needs, lea"
+chunk_120150,0,0.9974088452908242,mponent {…props} newProp={value} />. Que
+chunk_120600,0,0.9992464067011857,estion: Why is array destructuring used 
+chunk_121050,0,0.9953241697448603,Prop drilling is the process of passing 
+chunk_121500,4,0.9793817322305357,"s, or with built-in JavaScript functions"
+chunk_121950,4,0.9999906586048335,"er the most recent search, so that the a"
+chunk_122400,4,0.9997441755707696,andleSearch = (event) => {     setSearch
+chunk_122850,0,0.994529767690418,| 'React'   );   ... ); Good to know: Ja
+chunk_123300,4,0.8204193374455141,localStorage .getItem('search' )   : 'Re
+chunk_123750,3,0.9547964360813509,"omplete, but there is one flaw that may "
+chunk_124200,4,0.9999709190531839,zed place and not in a specific handler 
+chunk_124650,4,0.8589149474201798,.value);   };   ... ); React’ s useEf fe
+chunk_125100,0,0.9989590630636535,"to the HTML  input field). In addition, "
+chunk_125550,4,0.9999745452304714,"t time. After all, the hook lets us opt "
+chunk_126000,3,0.9158976955223282,erm  state is updated via setSearchTerm 
+chunk_126450,4,0.9629822253131001,k’ s dependency array . Check the logs f
+chunk_126900,0,0.9999251262816817,rch. That’ s because JavaScript’ s logic
+chunk_127350,3,0.9981885694687903,mponents to perform side ef fects. Quest
+chunk_127800,3,0.9893291386541366,([]) as the second argument. Question: C
+chunk_128250,0,0.9925664004239101,he useEf fect with the cleanup logic. Qu
+chunk_128700,4,0.99968851271551,? Answer: It allows you to handle asynch
+chunk_129150,0,0.6556117722633396,"al hooks provided by React, our upcoming"
+chunk_129600,4,0.9999975599563766,e our exploration by outlining how we in
+chunk_130050,0,0.9890450138494078,"his custom hook, we can use it in a mann"
+chunk_130500,4,0.9164025962814393,troduced local storage features are ther
+chunk_130950,4,0.999883174155478, the useState  and useEffect  hooks whic
+chunk_131400,0,0.8253723832312206,", [searchTerm]);   return [searchTerm, s"
+chunk_131850,0,0.9733326014290047,"e generic, we have to adjust the interna"
+chunk_132300,4,0.9992795337713092,state updater function anything domain-r
+chunk_132750,4,0.9695055623624589,"mes that it could change, so it needs to"
+chunk_133200,4,0.9964610811472563,"alue, key]);   return [value, setValue];"
+chunk_133650,3,0.8586691491843659,en to use the same key more than once fo
+chunk_134100,0,0.9981205359730276,vial implementation details that should 
+chunk_134550,0,0.9992401388246972, all the source code changes from this s
+chunk_135000,0,0.9999703244995318,React hooks to encapsulate and reuse log
+chunk_135450,0,0.9999285135514484, their association with React hooks. Que
+chunk_135900,0,0.9968193164088759,cess to the component’ s props. They usu
+chunk_136350,0,0.9977844437517547,uestion: Can custom hooks have side ef f
+chunk_136800,4,0.9068436147872271,mponents return JSX with one top-level H
+chunk_137250,4,0.9850379896822294,earch}       onChange={onSearch}     /> 
+chunk_137700,4,0.993984685493526,"search""     type=""text""     value={searc"
+chunk_138150,4,0.9973771426309006,"For=""search"">Search: </label>     <input"
+chunk_138600,4,0.9999982813664576,in their shorthand version: src/App.jsx 
+chunk_139050,0,0.9990162813908718,"tisfy React, you can use fragments as he"
+chunk_139500,0,0.9979852571359535, additional DOM element. Question: How d
+chunk_139950,0,0.9924093453060271,required in every React component? Answe
+chunk_140400,0,0.9656035595099306, be applied to the elements within the F
+chunk_140850,3,0.9970318120958146,omposed of merely a label and an input. 
+chunk_141300,3,0.9914665938593951,or /id combination is duplicated. This d
+chunk_141750,4,0.9922584204213085,ue and callback handler to more generic 
+chunk_142200,0,0.9978663788611185,{label}</label>     &nbsp;     <input   
+chunk_142650,0,0.8767597261400141,"el = ({   id,   label,   value,   type ="
+chunk_143100,3,0.8217482113737793,"onent is used without a type  prop, the "
+chunk_143550,3,0.9999704554194639,f we do. It’s always a trade-of f betwee
+chunk_144000,4,0.7658994160341726,de . Recap all the source code changes f
+chunk_144450,0,0.7444167525846354,"with label=""Search:""  as prop to the Inp"
+chunk_144900,0,0.999915930748193,ous parts of an application. Question: H
+chunk_145350,0,0.9998650111333109,sable component can have internal state 
+chunk_145800,0,0.6233389082897545,n there are components which have only a
+chunk_146250,4,0.9991140611281081,there could be an opening and closing ta
+chunk_146700,4,0.966517717798079, features. Essentially we’ll discover ho
+chunk_147150,0,0.9960119887820521,op to render everything that has been re
+chunk_147600,4,0.9986185927913586,verything that’ s passed between a compo
+chunk_148050,0,0.9639361066489696,leSearch}       >         <strong>Search
+chunk_148500,0,0.999388080849071, the author ’s source code . Recap all t
+chunk_148950,0,0.9973725684808342,uestion: How can you access and render t
+chunk_149400,0,0.9999406868667676,React components as “children” to anothe
+chunk_149850,0,0.9978266160054369,act.Children.map or React.Children.forEa
+chunk_150300,2,0.9398807978547707, other props are key-value pairs passed 
+chunk_150750,0,0.9998524006051558,approach. Instead of manually manipulati
+chunk_151200,0,0.9976977331055785," see, not how to create these elements. "
+chunk_151650,3,0.6757870871201623,do something   };   return (     <button
+chunk_152100,3,0.9681418362364426,g (here: setting) an input field’ s focu
+chunk_152550,0,0.9776009921086243, can achieve the same outcome by setting
+chunk_153000,0,0.9998614592141928,"s works, but only if one of the reusable"
+chunk_153450,4,0.9621677269164004,       <h1>My Hacker Stories</h1>       
+chunk_153900,0,0.9549013188298782," = ({   id,   value,   type = 'text',   "
+chunk_154350,0,0.9973997243891614,tive approach (which is the recommended 
+chunk_154800,0,0.9863886274820531,putRef.current) {       // D       input
+chunk_155250,0,0.9994736557410074, useRef Hook . This ref object is a pers
+chunk_155700,3,0.9262759521760178, on the element when the component rende
+chunk_156150,3,0.9994809479767798,ible to use either the declarative or im
+chunk_156600,3,0.9797623266919524,re your source code against the author ’
+chunk_157050,0,0.9975743750592786,. Optional: Leave feedback for this sect
+chunk_157500,0,0.996090729377021,ng. Question: Can useRef be used to hold
+chunk_157950,3,0.998794478893188,"Answer: No, changing the value of a ref "
+chunk_158400,0,0.7603313149554874,created with useRef. OceanofPDF .comInli
+chunk_158850,3,0.9999983602252571,"ter dif ficulties, proceed to read this "
+chunk_159300,4,0.9875853635235932, needs to become a stateful value (here:
+chunk_159750,4,0.9961959417058751,m by its identifier . Now we want to che
+chunk_160200,4,0.9643752164278138,"ist, make it stateful by using it as ini"
+chunk_160650,4,0.9997427643335023,"ramov, Andrew Clark',     num_comments: "
+chunk_161100,4,0.9998995714297186, are coming from has changed. But we are
+chunk_161550,4,0.9999762343437577,<h1>My Hacker Stories</h1>      ...     
+chunk_162000,4,0.9999929211136037, stories – where the desired item (story
+chunk_162450,4,0.7441788499782983,"not use this new callback handler , but "
+chunk_162900,4,0.9967817333908181,"ver , an additional button element is ne"
+chunk_163350,4,0.999543386951391,oveItem}>           Dismiss         </bu
+chunk_163800,0,0.9563144551563963,"re, we applied many lessons learned from"
+chunk_164250,4,0.7365730740242,andler to pick up the item as argument f
+chunk_164700,4,0.9999676270686884,i>     <span>       <a href={item.url}>{
+chunk_165150,4,0.9967484582359685,d method returns a new function with the
+chunk_165600,4,0.9906170784715079," <button type=""button"" onClick={() => on"
+chunk_166050,4,0.9977809529531534,"Playground const Item = ({ item, onRemov"
+chunk_166500,3,0.9999996059297794,"handlers need to use a block body , beca"
+chunk_166950,0,0.9876466323153892," about how to add, update , remove  item"
+chunk_167400,0,0.9998819874109627,t? Answer: Inline functions allow you to
+chunk_167850,3,0.9832274381928079, like onClick={() => myFunction()} . Oce
+chunk_168300,4,0.9958569978922132,reparing our application to deal with re
+chunk_168750,4,0.9972342465820974,om a real remote API. We start of f with
+chunk_169200,4,0.999981996911569,pty list of stories and simulate fetchin
+chunk_169650,4,0.9999987620517732,"result.data.stories);    });   }, []);  "
+chunk_170100,4,0.9989089953734027,lve) =>     resolve({ data: { stories: i
+chunk_170550,4,0.998169149010594,hing gets rendered in the List component
+chunk_171000,4,0.6230765462284883,data asynchronously from a promise. Howe
+chunk_171450,4,0.9999874940921217,ses . Read more about faking a remote AP
+chunk_171900,4,0.8194891897577192,"d before initiating data fetching, and c"
+chunk_172350,4,0.9999724667780896,s are used to manage asynchronous operat
+chunk_172800,4,0.9879325691530424,"act? Answer: Yes, after simulating async"
+chunk_173250,4,0.9999304038941625,chronous data arrives? Answer: React’ s 
+chunk_173700,3,0.9999990963766369,", our goal is to implement this feedback"
+chunk_174150,0,0.9938098079449305,g indicator . Optional Hints: In order t
+chunk_174600,0,0.800588786172507,lways happens if we have to render diffe
+chunk_175050,3,0.9997072336490253,ts of things to cover for us as develope
+chunk_175500,4,0.9994912866079736,"this, allowing us to set the state accor"
+chunk_175950,0,0.99157586253293, . What’ s missing is showing the user t
+chunk_176400,0,0.9922458351628605,ing indicator or the List component. Usi
+chunk_176850,4,0.9980358398442878,searchedStories}           onRemoveItem=
+chunk_177300,4,0.9999870153440779,her state for error handling and handle 
+chunk_177750,0,0.4828946710545232,     setIsLoading(false);       })      
+chunk_178200,0,0.9915294376606837,&& <p>Something went wrong ...</p>}     
+chunk_178650,0,0.9561819298153771,it and skips the expression. Using expre
+chunk_179100,0,0.8313217392353022,ditionally render JSX. It’ s yet another
+chunk_179550,4,0.8750836543296461,: Leave feedback for this section . Inte
+chunk_180000,0,0.9826402221339544,fore we do not need a conditional render
+chunk_180450,0,0.9971211302350119,ate value. Question: Can you use useStat
+chunk_180900,4,0.9797179892056262,ed. Question: How do you handle loading 
+chunk_181350,4,0.9888133574698197,eanofPDF .comReact Advanced State All st
+chunk_181800,4,0.9998977804421807,de about reducers in JavaScript . In thi
+chunk_182250,4,0.9999999896393064,"a , isLoading , error ) managed by a red"
+chunk_182700,4,0.9999941540972005,".. ); const storiesReducer = (state, act"
+chunk_183150,4,0.9999463296395913,isn’ t covered.The storiesReducer  funct
+chunk_183600,4,0.9996539270997699,e  and the second item is the state upda
+chunk_184050,4,0.9999960898291242,e updater function sets the state implic
+chunk_184500,4,0.9999998962051447,"sError(true));   }, []);   const handleR"
+chunk_184950,3,0.998367146957977, version by handling more than one state
+chunk_185400,4,0.9999994452412839,cer what to do . Everything else is hidd
+chunk_185850,4,0.9947213549879819,ion givesall the necessary information (
+chunk_186300,4,0.9865880927399732,rror();   } }; All these if-else stateme
+chunk_186750,4,0.9955346517689524,te.filter(         (story) => action.pay
+chunk_187200,4,0.9999998266427078, can set a list of stories as state for 
+chunk_187650,4,0.9997642211939513,inst the author ’s source code . Recap a
+chunk_188100,0,0.9985706269838046,section . Interview Questions: Question:
+chunk_188550,3,0.9338988079071951,is the basic structure of the useReducer
+chunk_189000,4,0.9889876201370729,ing useReducer? Answer: State is updated
+chunk_189450,4,0.995550022954863, disconnect between the single states in
+chunk_189900,0,0.9547174634550087,te  hooks in one React component. Be war
+chunk_190350,3,0.9999994414251173,); The impossible state happens when an 
+chunk_190800,4,0.9972478900270089,d try yourself to fix this bug. Fortunat
+chunk_191250,4,0.9999699412354737,"or, setIsError ] = React.useState (false"
+chunk_191700,4,0.9758389524372582,"eact’ s useState Hooks anymore, everythi"
+chunk_192150,4,0.9999926528266954,"= () => {   ...   const [stories, dispat"
+chunk_192600,4,0.9999999117896333,: 'STORIES_FETCH_FAILURE' })       );   
+chunk_193050,3,0.996918500574515,"esReducer = (state, action) => {   switc"
+chunk_193500,3,0.998766684661138,",       };     case 'REMOVE_STORY':     "
+chunk_193950,3,0.9985523480534262,_FETCH_FAILURE  sets the isLoading  bool
+chunk_194400,4,0.9996448016011287,"ect with data , isLoading , and error  s"
+chunk_194850,4,0.9999900830663684,cludes(searchTerm.toLowerCase())   );   
+chunk_195300,4,0.9999873640826396,tAsyncStories  = () =>   new Promise((re
+chunk_195750,0,0.9799586683497061," rid of impossible states, because it’ s"
+chunk_196200,0,0.98005272209492, more about deriving state from props in
+chunk_196650,0,0.9914558591158277,"nd predictable state, preventing unexpec"
+chunk_197100,4,0.9999941812151759,"updates, reducing the risk of impossible"
+chunk_197550,3,0.9995113478417046,informative Hacker News API to request p
+chunk_198000,3,0.9997955474354284,ews API to fetch the data. Optional Hint
+chunk_198450,4,0.9977572644615162,ecause everything is already in place. T
+chunk_198900,4,0.9999889708495422,/search?query='; const App = () => {   .
+chunk_199350,4,0.9999917599415509,", []);   ... }; First, the API_ENDPOINT "
+chunk_199800,0,0.9642849193809896,"vious code example, we used JavaScript’ "
+chunk_200250,3,0.9946529581064152,er to see stories related to the initial
+chunk_200700,4,0.5913366029136221,or ’s source code . Recap all the source
+chunk_201150,4,0.9500629187723549, dynamically retrieve and display inform
+chunk_201600,3,0.9952348509245281,tax or promises within the useEf fect ho
+chunk_202050,0,0.9854615860814424,ns. Specifying dependencies ensures that
+chunk_202500,0,0.7878314685215332,"ore and update data retrieved from APIs,"
+chunk_202950,4,0.9948418294419263,g states provides feedback to users whil
+chunk_203400,4,0.9987111324986238," this case: 'react' ), we consistently s"
+chunk_203850,3,0.9999157137798093,to get data from the remote API based on
+chunk_204300,3,0.9999999834493566,"pends on factors like dataset size, sear"
+chunk_204750,4,0.9998824856159735,. Optional Hints: The calculated value s
+chunk_205200,4,0.9999993696555404,filtered by search term from the API. Pa
+chunk_205650,4,0.999995254740828,"ate. Afterward, every time a user search"
+chunk_206100,4,0.9999984367996856,  fetch(`${API_ENDPOINT}${searchTerm}`) 
+chunk_206550,4,0.998236915047473,"ich is set as initial state), the search"
+chunk_207000,4,0.9999994004648535,App = () => {   ...   React.useEffect(()
+chunk_207450,4,0.9982895297478886,"_SUCCESS',           payload: result.hit"
+chunk_207900,3,0.9999784849635343,e initial data fetch but also when these
+chunk_208350,3,0.9996321778036299,to address this issue soon. Exercises: C
+chunk_208800,3,0.9999999361935201,stion: How does client-side searching im
+chunk_209250,3,0.9999999999893134,arching is preferable for lar ge dataset
+chunk_209700,3,0.8939085050105415,"rs, especially if the API employs rate l"
+chunk_210150,0,0.997545365484303," essentially a function itself, you can "
+chunk_210600,4,0.9999988324925505,on expression (A). This new function is 
+chunk_211050,4,0.9999958163871386,         dispatchStories({           typ
+chunk_211500,0,0.9077218604564443,ook. Instead of using the data fetching 
+chunk_211950,4,0.9682085497363098, dependency array (E) changes. As a resu
+chunk_212400,4,0.9546127895337623,unction would be created each time the A
+chunk_212850,4,0.9972775151400555,de-effect 3. update: state 4. re-render:
+chunk_213300,4,0.9997726375504289, want to see the new data displayed in o
+chunk_213750,4,0.3528267841826897,"hook depends on the handleFetchStories ,"
+chunk_214200,0,0.9890731317491204,ck hook in React? Answer: useCallback is
+chunk_214650,3,0.99999839076027," gument is the function to be memoized, "
+chunk_215100,3,0.999999989459269,ata each time someone types in the input
+chunk_215550,3,0.9996770617466555,ton. Task: The server -side search execu
+chunk_216000,4,0.9958479684360384,ch as state by using the current search 
+chunk_216450,4,0.9998923162843543,n (     <div>       <h1>My Hacker Storie
+chunk_216900,4,0.9998128270107933,dler of the input field and the button. 
+chunk_217350,4,0.9999386370140146,_ENDPOINT}${searchTerm}`   );   ...   co
+chunk_217800,4,0.9999997870413693,ing a search request when clicking the b
+chunk_218250,4,0.9998947635064097,"TORIES_FETCH_FAILURE' })       );   }, ["
+chunk_218700,3,0.9994000779963119,tion button. Exercises: Compare your sou
+chunk_219150,4,0.9219599666120154,because it’ s already derived from a sta
+chunk_219600,3,0.9999756731367643,e native fetch API (which the browser pr
+chunk_220050,3,0.9972562516108077,are a bit of f-task for the purpose of t
+chunk_220500,4,0.9999565548356458," API, go ahead and implement it yourself"
+chunk_220950,4,0.9991972506322057, promise. You don’ t have to transform t
+chunk_221400,4,0.99954457709029,"pe: 'STORIES_FETCH_SUCCESS',           p"
+chunk_221850,4,0.8700780508233708,e with these examples that axios is a po
+chunk_222300,2,0.9498768569240188,s in React . Optional: Read more about a
+chunk_222750,4,0.9484262012033643,ed to the native Fetch API. Question: Wh
+chunk_223200,4,0.9999808549001793,sts in React? Answer: Axios provides a .
+chunk_223650,4,0.9998983826014552,"be a remote API that gives you data, whe"
+chunk_224100,4,0.8467265844796662,e from using then/catch to async/await. 
+chunk_224550,4,0.9999802963594097, App = () => {   ...   const handleFetch
+chunk_225000,4,0.7963621073553223,onous code. Actions after the await  key
+chunk_225450,4,0.9996961173375453, });     try {       const result = awai
+chunk_225900,4,0.7276206058968148,"synchronous way . However , using then/c"
+chunk_226350,3,0.9999960001726849,tion: What is async/await? Answer: async
+chunk_226800,3,0.8527480301540321,th asynchronous code in a more readable 
+chunk_227250,4,0.9997625515291514,ning .then(). Question: Can you use asyn
+chunk_227700,4,0.999620163190348,forms. A form is just a proper vehicle t
+chunk_228150,4,0.9999998430388625,oring steps with some HTML/JavaScript. F
+chunk_228600,4,0.9843791799567877,"         <button type=""submit"" disabled="
+chunk_229050,4,0.9999628327225327," for the form event, it executes prevent"
+chunk_229500,4,0.9999583379474494,ead of just a standalone button. In the 
+chunk_229950,4,0.999999182842309,    onInputChange={onSearchInput}     > 
+chunk_230400,4,0.9999999561862306,o the List component: src/App.jsx const 
+chunk_230850,0,0.9870552556828859,dleRemoveStory} />       )}     </div>  
+chunk_231300,0,0.9998833353205802,users as well. Exercises: Compare your s
+chunk_231750,0,0.9995223944393451,"orm input in React? Answers: In React, f"
+chunk_232200,0,0.999859492456124,rm submission behavior in React? Answers
+chunk_232650,0,0.9999427262604433,Answers: Form validation in React is typ
+chunk_233100,0,0.9937994119447284,ith a single onChange handler in React?A
+chunk_233550,2,0.999998858826655," React So far , you have learned everyth"
+chunk_234000,2,0.9999775096928689,hands dirty . My favorite approach: Lear
+chunk_234450,2,0.9999998799244098,ly touch three aspects: advanced feature
+chunk_234900,2,0.9999999792524366,"eeper into various subjects though, I ca"
+chunk_235350,2,0.9374907945031137," most popular routing library for React,"
+chunk_235800,0,0.9542834538425466,t solves. So it would end up being a pre
+chunk_236250,0,0.9984920317061449,ple hooks in a real application (recomme
+chunk_236700,2,0.9999596345587898,t Render Prop Components  and React High
+chunk_237150,2,0.9999951626441731,l which power JavaScript build pipelines
+chunk_237600,2,0.9999949479345392,"e very much appreciated. From here on, y"
+chunk_238050,2,0.9999992824126752,s the following sections of the book hel
+chunk_238500,2,0.9989417909207315,hoose a path). If this gets too overwhel
+chunk_238950,2,0.9999117978199096,on in this chapter demonstrates an alter
+chunk_239400,2,0.9686219335796435,ers will build upon your current applica
+chunk_239850,2,0.9994381533764732,ostly a matter of what fits best for dev
+chunk_240300,2,0.9999975716156297, our React application. If you don’ t wa
+chunk_240750,2,0.9996091726577871, pre-configured in Vite. If you’re in co
+chunk_241200,3,0.9999875979183601,'; ReactDOM.createRoot(document.getEleme
+chunk_241650,2,0.999979396298477, sans-serif ;   -webkit- font-smoothing 
+chunk_242100,4,0.9997549337167603,milar to the standard CSS you may have a
+chunk_242550,4,0.8896974290809931,mit}       />       {stories.isError && 
+chunk_243000,3,0.8880789018817212,rt axios from 'axios'; import './App.css
+chunk_243450,4,0.8777996488417393,ight : 300;   letter-spacing : 2px; } Yo
+chunk_243900,4,0.9998925901639623,a>     </span>     <span style={{ width:
+chunk_244350,0,0.9481327832906329,"attribute for HTML  elements. In JSX, st"
+chunk_244800,3,0.9911952078597823,"In your sr c/App.css  file, define the n"
+chunk_245250,0,0.9838264983970253,psis ; } .item > span > a {   color: inh
+chunk_245700,0,0.9782721100330497,.button:hover {   background : #171212; 
+chunk_246150,4,0.9997839252896412,ent: src/App.jsx const SearchForm = ({ .
+chunk_246600,4,0.9998991669897347, the SearchForm component a flexible sty
+chunk_247050,4,0.9999869246336368,ue={value}         onChange={onInputChan
+chunk_247500,0,0.9084023811545981,or : transparent ;   font-size : 24px; }
+chunk_247950,4,0.9924461423111982,"e Style Sheets), styling can become more"
+chunk_248400,2,0.99999490212287,his section . OceanofPDF .comCSS Modules
+chunk_248850,3,0.9999206193570919,"p.module.css , start with the first CSS "
+chunk_249300,0,0.8629902309837273, JavaScript object where the name of the
+chunk_249750,3,0.9494732653117093,yles.container}>       <h1 className={st
+chunk_250200,4,0.9843567296595983,; }; There are various ways to add multi
+chunk_250650,4,0.9923403659328041,ents}</span>     <span style={{ width: '
+chunk_251100,0,0.5120221350029344,ures like CSS nesting (see the previous 
+chunk_251550,3,0.9859512090007664,{   background : transparent ;   border:
+chunk_252000,4,0.9998011015259546,access the style with styles['button_sma
+chunk_252450,4,0.9991579663127635,ng>     </InputWithLabel>     <button   
+chunk_252900,3,0.9702881297462168,ependency: src/App.jsx import clsx from 
+chunk_253350,0,0.9053812063274567,"tton, { [styles.buttonLarge ]: isLarge }"
+chunk_253800,4,0.9932628826145655,); }; And finish up the remaining style 
+chunk_254250,3,0.999443088616408,ection applies: some of these styles lik
+chunk_254700,2,0.9999911443555513,ed. Exercises: Compare your source code 
+chunk_255150,2,0.9855358167081414, command line: Command Line npm install 
+chunk_255600,3,0.9916513252642614,"background: linear-gradient(to left, #b6"
+chunk_256050,4,0.9996640659199427,) as functions. Oncea function is called
+chunk_256500,4,0.6316603660921999,g went wrong ...</p>}       {stories.isL
+chunk_256950,0,0.9753997803663665,g a dedicated styled component for it. S
+chunk_257400,3,0.980784513294111,"     <StyledColumn width=""10%"">       <S"
+chunk_257850,0,0.9939270650710467," arrow function’ s body , it becomes a c"
+chunk_258300,0,0.9943470953740895,ponents by default. Nested elements are 
+chunk_258750,0,0.8770343882998486,ibrary’ s function. The specialized butt
+chunk_259200,4,0.9999960307266255,ing form element is used in the real HTM
+chunk_259650,4,0.9757775667758918,d={!searchTerm}>       Submit     </Styl
+chunk_260100,0,0.9827310290763321, </>   ); }; And its matching styled com
+chunk_260550,2,0.9792107956090235,ctual React components. Styled Component
+chunk_261000,2,0.9990835075811995,their approaches (e.g. Styled Components
+chunk_261450,2,0.9937586560795981,using Styled Components with the help of
+chunk_261900,2,0.9999896897368242,ilds on the “CSS in React” we covered ea
+chunk_262350,2,0.9924781330782383,gin-svgr --save-dev Next the new plugin 
+chunk_262800,3,0.9999999999936051,"encoding=""iso-8859-1""?> <!-- Generator: "
+chunk_263250,3,1.0,""">   <g>     <path d=""M113.636,272.638c-"
+chunk_263700,2,0.9998661778753708,".958l89.173,89.209\ l158.9-158.97l-40.34"
+chunk_264150,3,0.944191604497859,ck } from './check.svg'; Here we are imp
+chunk_264600,4,0.9996951623497711,idth: '30%' }}>{item.author}</span>     
+chunk_265050,2,0.9967969783715175,you can give your SVG icon in the button
+chunk_265500,2,0.9999997634981237,"d tools like Webpack, because you have t"
+chunk_265950,2,0.9993016422274559,ck for this section . OceanofPDF .comRea
+chunk_266400,2,0.9994557877612453,ce. Typed programming languages like Typ
+chunk_266850,3,0.7453487180848691,dvanced) This section is just here for t
+chunk_267300,0,0.8156989706758201,ll briefly look at React’ s Strict Mode 
+chunk_267750,0,0.8656609328209862,ng in the browser ’s developer tools. Ho
+chunk_268200,0,0.9982653500814064, => {   ...   React.useEffect(() => {   
+chunk_268650,3,0.9389458155482787,ehavior (even for seasoned React develop
+chunk_269100,3,0.9999999999667182,", which means that the result of a succe"
+chunk_269550,0,0.999921898255589, removed automatically . Both of these b
+chunk_270000,0,0.9969128273502212,oduction environment: src/main.jsx React
+chunk_270450,4,0.8538345231312187,(updating). By passing an empty dependen
+chunk_270900,0,0.965732217487236,"rageState = (key, initialState) => {   c"
+chunk_271350,4,0.9919021073461739, for the initial rendering of the compon
+chunk_271800,0,0.5299213976827706,eact’ s useRef Hook which keeps its ref.
+chunk_272250,0,0.9899238116452795, (!isMounted.current) {       isMounted.
+chunk_272700,0,0.975402223815763,false  boolean called isMounted . As a r
+chunk_273150,0,0.590501455395689,ef fect function for the first time rend
+chunk_273600,4,0.9778338153159457,only on update . Read more about running
+chunk_274050,3,0.939650959002946,        <Item           key={item.object
+chunk_274500,3,0.9983365283576257, the console.log()  on the left-hand sid
+chunk_274950,0,0.9996449891091621," the App component renders, followed by "
+chunk_275400,0,0.9770736784886696,blems with your implementation in order 
+chunk_275850,4,0.9973114985043028,"nce the data arrives, both components re"
+chunk_276300,4,0.9885591417360934,ualization B:App B:List What’ s striking
+chunk_276750,0,0.999671859519702,"e-renders, its descendent components re-"
+chunk_277200,3,0.5921387397223625,er if they are not af fected by an updat
+chunk_277650,4,0.9696042090645293,             onRemoveItem={onRemoveItem}
+chunk_278100,4,0.9998256059532723,"App component re-renders, it always crea"
+chunk_278550,4,0.9770938313113959,);   ...   console.log('B:App');   retur
+chunk_279000,0,0.968176414132432,", and only the App component re-renders "
+chunk_279450,0,0.9996679652790063,"n, sometimes memo  alone doesn’ t help, "
+chunk_279900,0,0.9597180034261493,performance-intensive computations in ou
+chunk_280350,3,0.8343784154456433,mments(stories);   return (     <div>   
+chunk_280800,4,0.7113532723274265,alue of summed comments on every render 
+chunk_281250,4,0.9113317028337805,We can tell React to only run a function
+chunk_281700,0,0.767473660371872,"ncy array , here stories , has changed. "
+chunk_282150,0,0.8587770434474629, React’ s rendering mechanism is pretty 
+chunk_282600,3,0.9098439913473538,r ’s developer tools and try its various
+chunk_283050,2,0.8828243188296964," s the case, apply performance optimizat"
+chunk_283500,2,0.9969773245465167,ypeScript for JavaScript and React has m
+chunk_283950,2,0.9985514434264016,ing code blocks or performing a lar ger 
+chunk_284400,2,0.9996801690761719, install typescript @types/react @types/
+chunk_284850,3,0.9935994244488422,"{     ""target"" : ""ES2020"" ,     ""useDefi"
+chunk_285300,3,0.9971373321481619,"UnusedParameters"" : true,     ""noFallthr"
+chunk_285750,2,0.5859724006324246,"ude"" : [""vite.config.ts"" ] } If you have"
+chunk_286200,2,0.9999546920654862,    'react-refresh/only-export-component
+chunk_286650,2,0.9886690610082548," type=""image/svg+xml"" href=""/vite.svg"" /"
+chunk_287100,3,0.9985458777213874,the command line. You may encounter comp
+chunk_287550,2,0.9984408892163594,"tart, however , we are missing type defi"
+chunk_288000,3,0.9999888088110626,ing error: Argument of type ‘HTMLElement
+chunk_288450,0,0.8551532593553411,” by using a so called type assertion (h
+chunk_288900,0,0.9937039999043662,ents as string primitives: src/App.tsx c
+chunk_289350,0,0.9989645022035517,e updater function) that takes a new val
+chunk_289800,0,0.8416747112272581,ld already infer this type from React’ s
+chunk_290250,0,0.9844297830771824, );   React.useEffect(() => {     localS
+chunk_290700,0,0.9998904841172961,"t string primitive, then the returned cu"
+chunk_291150,0,0.9997007764797173,ook potential types (here with a so call
+chunk_291600,0,0.9078083647753816,"onents, like in our case, there are mult"
+chunk_292050,4,0.9939715657643443,objectID: string;     url: string;     t
+chunk_292500,4,0.9998771508649166,"stom Story  type outside the component, "
+chunk_292950,4,0.9850753992357215,"t and returns nothing. Next, clean up th"
+chunk_293400,4,0.7425944424631112,following implementation: src/App.tsx ty
+chunk_293850,4,0.9999985716832609, that development becomes increasingly d
+chunk_294300,4,0.9999995613332938,   };   ... };The reducer function manag
+chunk_294750,4,0.9965465858415375,on: StoriesAction ) => {   ... }; The Ac
+chunk_295200,4,0.9999998320731577,chSuccessAction = {   type: 'STORIES_FET
+chunk_295650,4,0.9966267987940994," current state, action, and returned sta"
+chunk_296100,4,0.9912309537111212,e SearchFormProps = {   searchTerm: stri
+chunk_296550,4,0.9999919048125423,"more specific type. Next, going up to th"
+chunk_297000,0,0.9989514368900617,. }; All that’ s left is the InputW ithL
+chunk_297450,0,0.9351237624807176,urned ref type safe and typed it as read
+chunk_297900,0,0.9753158457767253,ring;   type?: string;   onInputChange: 
+chunk_298350,0,0.9997466210740994,e children  prop has a lot of TypeScript
+chunk_298800,0,0.983060945015577,"s, custom React hooks, or React function"
+chunk_299250,2,0.9986848083084706,p of your head. While you continue with 
+chunk_299700,3,0.9999999924671101,ity and functionality before using it in
+chunk_300150,3,0.9999999999459135, While unit tests are quick and easy to 
+chunk_300600,4,0.999109452851174, component-specific testing technique ca
+chunk_301050,3,0.9924459119470648,"ing events like mouse clicks, and select"
+chunk_301500,3,0.997901661606334,"ally: package.json ""dev"": ""vite"", ""build"
+chunk_301950,3,0.9996479598392926,suites and test cases are commonly used 
+chunk_302400,3,0.9988717359788554,    expect(false).toBe(false);   }); });
+chunk_302850,3,0.9996297241000006, sense to use them with test suites: Cod
+chunk_303300,3,0.9987983834315907, ✓ true to be true      ✓ false to be fa
+chunk_303750,3,0.9489377433727384,"” to see all of them), such as pressing "
+chunk_304200,3,0.999999763908391,ailed test in red: Command Line Assertio
+chunk_304650,3,0.9994956278671779,"show help, press q to quit Familiarize y"
+chunk_305100,3,0.9999370309103829, toBe  is only one of many available ass
+chunk_305550,3,0.9995058800985364,npm run test ) and one for developing yo
+chunk_306000,3,0.999999939535174,"tions in isolation. For functions, unit "
+chunk_306450,4,0.9999682055806305, The exercises at the end of this chapte
+chunk_306900,4,0.9999986387958614,"   SearchForm,   InputWithLabel, } from "
+chunk_307350,4,0.9995615794824061," points: 4,   objectID: 0, }; const stor"
+chunk_307800,4,0.9999997499443822,an use to perform the rest as exercise y
+chunk_308250,4,0.9999999958852186,State = // TODO: the expected state     
+chunk_308700,3,0.999939301774477,"state = { data: stories, isLoading: fals"
+chunk_309150,4,0.9999047148927085,"the objects are the same, however , thei"
+chunk_309600,3,0.9998959754588866,n);     const expectedState = {       da
+chunk_310050,3,0.960394801377956,you can still use toBe . Also note that 
+chunk_310500,3,0.9999301231034334,e expect the following new state. Every 
+chunk_310950,3,0.9999540349396817,ons  like toBe  and toStrictEqual . Unit
+chunk_311400,3,0.999997295962306,onent has to end up somewhere (e.g. head
+chunk_311850,4,0.8094499441776942,"gins: [react()],   test: {     environme"
+chunk_312300,3,0.8754721692504925,s import { defineConfig } from 'vite'; i
+chunk_312750,3,0.9933220081599736,"* as matchers  from ""@testing-library/je"
+chunk_313200,4,0.9865362492295899,"est'; import {   render,   screen,   fir"
+chunk_313650,4,0.9999801024896451, – one of our previously defined stories
+chunk_314100,3,0.8578674830206727," test file), so we can use the debug  fu"
+chunk_314550,0,0.974905103888933,ents. The output should be similar to th
+chunk_315000,4,0.9940831050607079, </div> </body> Here you should form the
+chunk_315450,4,0.8067823109766799,"  it('renders all properties', () => {  "
+chunk_315900,3,0.9999354096909525,ent with the text “Jordan Walke” is in t
+chunk_316350,3,0.8247123898889881,etByText  function returns the element w
+chunk_316800,3,0.9989623643826024,);     expect(screen.getByRole('button')
+chunk_317250,3,0.9999979318053889, if you provide a role that’ s not avail
+chunk_317700,3,0.9999066050815301,ble to find an accessible element with t
+chunk_318150,4,0.9081745903716003,"ected. For example, the Item component’ "
+chunk_318600,4,0.9691027089887598,"vi } from 'vitest'; ... describe('Item',"
+chunk_319050,3,0.9878387180207938, }); }); Vitest lets us pass a test-spec
+chunk_319500,3,0.9999721045638724,"ledWith , to verify ar guments that are "
+chunk_319950,4,0.9400486244631747,tested the Item component’ s input and o
+chunk_320400,4,0.9994962314499778,erything all together . We will test the
+chunk_320850,4,0.9997014521788059,"rmProps = {     searchTerm: 'React',    "
+chunk_321300,4,0.9999057133764436,om R TL is the perfect candidate to retu
+chunk_321750,3,0.9951925522521539,ich is the displayed value in our test a
+chunk_322200,4,0.9999988618853959,o assert the rendered label: src/App.tes
+chunk_322650,3,0.9999554882133855,r components that render multiple labels
+chunk_323100,4,0.9999998513686105,s it would be more interesting to test t
+chunk_323550,4,0.9999958808796802," onSearchInput on input field change', ("
+chunk_324000,4,0.9978742574872435,Props.onSearchSubmit).toHaveBeenCalledTi
+chunk_324450,4,0.9975875831161473, t care about the component tree either 
+chunk_324900,3,0.6112728244159098,onent. Real testing with R TL starts fur
+chunk_325350,4,0.9986737010783223,ssertions more bullet proof. Add tests f
+chunk_325800,4,0.9994500306276095,kes requests for data from a remote API 
+chunk_326250,4,0.9999984564927448, and assume the correct data is mocked f
+chunk_326700,4,0.9999047628438915,omponent’ s initial render . With async/
+chunk_327150,4,0.9475567044063048,(<App />);     screen.debug();     await
+chunk_327600,4,0.9953312812600269,"tching data', async () => {     const pr"
+chunk_328050,3,0.9999999999879208, queryByText  instead of the getByText  
+chunk_328500,4,0.9999985261474283,"atch a part of it. Next, we can assert w"
+chunk_328950,4,0.9844553120186839,romise);     expect(screen.queryByText(/
+chunk_329400,4,0.999123711927851,tch block: src/App.test.jsx describe('Ap
+chunk_329850,3,0.9999999652832235,oBeNull();       expect(screen.queryByTe
+chunk_330300,4,0.7148185648296063,w the initial data fetching works for ou
+chunk_330750,3,0.9626387692416598,".test.jsx describe('App', () => {   ... "
+chunk_331200,4,0.9978873793534511,Text('Dismiss')[0]);    expect(screen.ge
+chunk_331650,3,0.8534201817230997,reactPromise = Promise.resolve({       d
+chunk_332100,3,0.9999980374498636,   if (url.includes('React')) {         
+chunk_332550,4,0.9997541050228256,elated stories). If we provide an incorr
+chunk_333000,3,0.9405374116138016,});     // Initial Render     render(<Ap
+chunk_333450,4,0.516678738321016,'Brendan Eich')).toBeNull();   }); }); W
+chunk_333900,4,0.999892411727439,n the actual input field: src/App.test.j
+chunk_334350,4,0.9995356110341048,   target: {         value: 'JavaScript'
+chunk_334800,4,0.9969671755365279,"pp.test.jsx describe('App', () => {   .."
+chunk_335250,4,0.8488832283221458,ct(       screen.queryByText('Dan Abramo
+chunk_335700,4,0.9889585995939274,m the API – with the tools we’ve used. R
+chunk_336150,3,0.9968555115122057, changes from this section . Read more a
+chunk_336600,3,0.9999984453879027,apshot is compared to the same snapshot 
+chunk_337050,4,0.9992058648295795,"('SearchForm', () => {   ...   it('rende"
+chunk_337500,4,0.9999919104751952,"ext, head to src/App.jsx  file and chang"
+chunk_337950,3,0.9999999960367063,erm}>       Submit     </button>  </form
+chunk_338400,3,0.9828385090798711,"command line. To fix it, we would go int"
+chunk_338850,3,0.9616519856901851, control platforms like git. This is how
+chunk_339300,2,0.9909284728403586, section .Add one snapshot test for each
+chunk_339750,2,0.999738958037578,metimes also called modules). For learni
+chunk_340200,2,0.9999967915579219, note that there’ s no right way to stru
+chunk_340650,0,0.719224724602301, of our components in the sr c/ folder: 
+chunk_341100,4,0.9999998778726752,"x const List = ({ list, onRemoveItem }) "
+chunk_341550,0,0.9997218238212557,"on"" onClick={() => onRemoveItem(item)}> "
+chunk_342000,0,0.958463823951716," ({   id,   value,   type = 'text',   on"
+chunk_342450,4,0.9978537891439809,   />     </>   ); }; export { InputWith
+chunk_342900,4,0.9999915790023131,"ut,   onSearchSubmit, }) => (   <form on"
+chunk_343350,0,0.9909242099129416," InputW ithLabel, because it’ s only use"
+chunk_343800,0,0.8648855470367486, a component (e.g. Item) is dedicated to
+chunk_344250,2,0.9219112776932461,e dif ferent responsibilities like styli
+chunk_344700,3,0.9986676266804217," e, especially once the project grows. U"
+chunk_345150,2,0.9999906802010242,-- test.js -- types.js - shared/ -- Butt
+chunk_345600,2,0.9997643864831298,"/file structures. However , in the exerc"
+chunk_346050,2,0.9999981388906728,current folder structure if you feel con
+chunk_346500,3,0.9833275112641301,these tasks without the optional hints  
+chunk_346950,4,0.9974225688234135,"rting of each property by title, author "
+chunk_347400,4,0.9999302749811751,propriate sort function on the list . Us
+chunk_347850,4,0.9998528941840554,lex' }}>       <span style={{ width: '40
+chunk_348300,4,0.999374116533967,e for the most basic layout. To match th
+chunk_348750,4,0.9999969163782305,idth: '10%' }}>{item.points}</span>     
+chunk_349200,4,0.9999912355786009,e the new sort state. This can also be d
+chunk_349650,4,0.9978301924404248, React.useState('NONE');   const handleS
+chunk_350100,4,0.9999471791370438,    <ul>       <li>         <span>      
+chunk_350550,4,0.9979577707744307,"span>           <button type=""button"" on"
+chunk_351000,4,0.945199941110506,"Script isn’ t trivial, because every Jav"
+chunk_351450,4,0.9999914582167142,rom 'react'; import axios from 'axios'; 
+chunk_351900,4,0.9999982458632,"{   NONE: (list) => list,   TITLE: (list"
+chunk_352350,4,0.9998447802994445,"moveItem }) => {   const [sort, setSort]"
+chunk_352800,4,0.9976633927843167,: First we extracted the sort function f
+chunk_353250,3,0.9999897053984174,r ’s source code . Recap all the source 
+chunk_353700,4,0.6855848955550201,"re works, but the ordering only includes"
+chunk_354150,4,0.9998511159095477,e sort function from the dictionary with
+chunk_354600,4,0.9998459809576253,"State({     sortKey: 'NONE',     isRever"
+chunk_355050,4,0.9999990782482071,);  const handleSort = (sortKey) => {   
+chunk_355500,4,0.9999800822483056,"const List = ({ list, onRemoveItem }) =>"
+chunk_355950,4,0.9875226748055321,e reverse sort is now operational! Congr
+chunk_356400,0,0.944436437832486,alue pair and just write the name: Code 
+chunk_356850,4,0.994204159853631,"know , sort the list by “T itle” and sea"
+chunk_357300,4,0.9986141483593138,"hich hit the API, and provide a button t"
+chunk_357750,4,0.9999941707679137,e last five URLs from urls  can be used 
+chunk_358200,4,0.9998725819128224,ng the current url state for data fetchi
+chunk_358650,4,0.9999997723594279,"      type: 'STORIES_FETCH_SUCCESS',    "
+chunk_359100,4,0.9999997198483578, {     const url = `${API_ENDPOINT}${sea
+chunk_359550,4,0.9999989568525406,{   ...   const handleLastSearch = (url)
+chunk_360000,4,0.9999717948999868, whole URL  of the last search in the bu
+chunk_360450,4,0.9953567630517891,) => (         <button           key={se
+chunk_360900,4,0.9998991369207514,m for each url within the array’ s map m
+chunk_361350,4,0.999999364567205,te a new url to the list of urls  to tri
+chunk_361800,4,0.9999999244560656,ction: src/App.jsx const getUrl = (searc
+chunk_362250,4,0.9994223702409699, used somewhere else in the App componen
+chunk_362700,4,0.9998322760432035,is used for each button element as key a
+chunk_363150,4,0.9999886327293037,...     </div>   ); }; It’s not the perf
+chunk_363600,4,0.9999987156704583, Searching twice for “React” shouldn’ t 
+chunk_364050,4,0.9999723554387168,"tead of five by removing the last one, i"
+chunk_364500,4,0.9998344007652992, searches into one button if they follow
+chunk_364950,3,0.9999973247950295,rm = result[result.length - 1];       if
+chunk_365400,4,0.9999996177228943,s search term is dif ferent from the cur
+chunk_365850,4,0.9999990291950405,eLastSearch = (searchTerm) => {     setS
+chunk_366300,4,0.9999997492911378,LastSearch={handleLastSearch}       />  
+chunk_366750,3,0.9999999999723457, knowledge was needed to accomplish it. 
+chunk_367200,3,0.9999677314858781,ection . Read more about grouping in Jav
+chunk_367650,3,0.9999995768143933,"operty , which is 0 in the first respons"
+chunk_368100,3,0.9982353311246596, one of the buttons leads to fetching an
+chunk_368550,3,0.9987929086852038,lity for fetching succeeding pages. Impl
+chunk_369000,4,0.9926224237688304,nt so it can deal with paginated data la
+chunk_369450,3,0.6788574149302746, (searchTerm) =>   `${API_BASE}${API_SEA
+chunk_369900,3,0.990530766140096,"r API endpoint, which is no longer in ou"
+chunk_370350,4,0.9795292735042528,e page  follow it: src/App.jsx const ext
+chunk_370800,4,0.9998229903599363,url https://hn.algolia.com/api/v1/search
+chunk_371250,4,0.9992688056121548,l);       dispatchStories({         type
+chunk_371700,4,0.9999977573198316,   ...     case 'STORIES_FETCH_SUCCESS':
+chunk_372150,3,0.9573433415646819,"0, isLoading: false, isError: false }   "
+chunk_372600,4,0.999726392144338,>   `${API_BASE}${API_SEARCH}?${PARAM_SE
+chunk_373050,4,0.999993800918419,"rch = (searchTerm, page) => {     const "
+chunk_373500,4,0.9999999347233078,: src/App.jsx const App = () => {   ... 
+chunk_373950,3,0.9999999181401937,       More       </button>     </div>  
+chunk_374400,3,0.5719948909883843,"new data , concatenating the paginated l"
+chunk_374850,3,0.7093994577333561,".page,       };     case 'STORIES_FETCH_"
+chunk_375300,4,0.9574561931341246,– which is an empty list in the beginnin
+chunk_375750,3,0.9921086797852339,"(         <button type=""button"" onClick="
+chunk_376200,3,0.9999999999511431,s from this section . Revisit the Hacker
+chunk_376650,3,0.9999943324688467,"ton, how would you implement infinite pa"
+chunk_377100,2,0.8270596836362464, to deploy a React application to produc
+chunk_377550,3,0.9999999999998863,serving it on localhost on your local ma
+chunk_378000,3,0.9999999996710187, called minification at work which reduc
+chunk_378450,3,0.9962750209120695,e engaging in the real thing. On the com
+chunk_378900,4,0.9625590161640493,comDeploy to Firebase After we’ve built 
+chunk_379350,3,0.9999989645572743,base-tools Using a global installation o
+chunk_379800,3,0.9999999947914944,irebase account (Google account): Comman
+chunk_380250,3,0.9999999970477518, features: Command Line firebase init Th
+chunk_380700,3,0.9999999999200213,tHub Action deploys  ◯ Storage: Configur
+chunk_381150,3,0.9999995733612139,roject. ? Please select an option:   Use
+chunk_381600,3,0.999999914212257,er: Command Line ? What do you want to u
+chunk_382050,3,0.999993815111877,"ion, we want to redirect the user to the"
+chunk_382500,3,0.998719022553032,rebase deploy After a successful deploym
+chunk_382950,3,0.9999777444949038,d link navigates to your deployed React 
+chunk_383400,3,0.9999373261657115,ase deploy . Exercises: Read more about 
+chunk_383850,2,0.9998044985526164,"eading it, and that it helped you gain t"
+chunk_384300,2,0.9999979021657572,s to showcase it. I am always interested
+chunk_384750,3,0.987942668798077,tiple URLs. When you introduce routing t
+chunk_385200,3,0.9999461271795069,atabase without writing a backend applic
+chunk_385650,3,0.9969825520113088," In “The Road to GraphQL” , I teach you "
+chunk_386100,2,0.9999939481953193,gement solutions for React. I explore th
+chunk_386550,3,0.9999681943652264,if you haven’ t already . It will help o
+chunk_387000,2,0.9999984012896154,"ing and integration testing , especially"
+chunk_387450,0,0.9635988235590579, introduce UI component libraries like M
+chunk_387900,3,0.9451822159164428,nt library should become easier . React 
+chunk_388350,3,0.9999999999255351,velopment and software engineering. You 
+chunk_000000,1,0.9999999999999147,"The wife of a rich man fell sick, and as"
+chunk_000450,1,0.9999999999999716,"ite sheet over the grave, and by the tim"
+chunk_000900,1,0.9999999999999147,"ay from her, put an old grey bedgown on "
+chunk_001350,1,1.0,ed to sit and pick them out again.  In t
+chunk_001800,1,1.0," cinderella, said he, what will you have"
+chunk_002250,1,0.9999999999997726,"they had wished for, and to cinderella h"
+chunk_002700,1,0.9999999999998295,"at she had wished for. It happened, howe"
+chunk_003150,1,1.0, the wedding at the king's palace. Cinde
+chunk_003600,1,0.9999999999990905," you, if you have picked them out again "
+chunk_004050,1,1.0,"ng in, and alighted amongst the ashes. A"
+chunk_004500,1,1.0,", no, cinderella, you have no clothes an"
+chunk_004950,1,0.9999999420075784," cried, you tame pigeons, you turtle-dov"
+chunk_005400,1,1.0,"lso pick, pick, pick, pick, and gathered"
+chunk_005850,1,1.0,urried away with her two proud daughters
+chunk_006300,1,1.0,", and thought she must be a foreign prin"
+chunk_006750,1,1.0," was evening, and then she wanted to go "
+chunk_007200,1,1.0,xe that he might hew the pigeon-house to
+chunk_007650,1,1.0,he had seated herself in the kitchen amo
+chunk_008100,1,0.9999999999984368,astonished at her beauty.  The king's so
+chunk_008550,1,0.99999999999946,ificent pears.  She clambered so nimbly 
+chunk_009000,1,1.0,"shes, as usual, for she had jumped down "
+chunk_009450,1,1.0,id and magnificent than any she had yet 
+chunk_009900,1,1.0,"ever, had employed a ruse, and had cause"
+chunk_010350,1,0.9999999999999858,h the shoe into her room and wanted to t
+chunk_010800,1,1.0," with her.  They were obliged, however, "
+chunk_011250,1,1.0,other sister was to put the shoe on.  Th
+chunk_011700,1,1.0,"r, but when they passed by the hazel-tre"
+chunk_012150,1,1.0,"e, said he, have you no other daughter. "
+chunk_012600,1,1.0,"n before the king's son, who gave her th"
+chunk_013050,1,1.0,lla on his horse and rode away with her.
+chunk_013500,1,0.9999999999999716," son was to be celebrated, the two false"
+chunk_013950,3,1.0,"wickedness and falsehood, they were puni"
+chunk_000000,1,0.9999999999999147,"The wife of a rich man fell sick, and as"
+chunk_000400,1,1.0,s and good.  When winter came the snow s
+chunk_000800,1,0.9999999999974705,e who wants to eat bread must earn it.  
+chunk_001200,1,1.0,"sh.  Besides this, the sisters did her e"
+chunk_001600,1,1.0,t happened that the father was once goin
+chunk_002000,1,0.9999999999999432,"daughters, and on his way home, as he wa"
+chunk_002400,1,0.9999999999996589,"nch on it, and wept so much that the tea"
+chunk_002800,1,0.999999999126743,"ast three days, and to which all the bea"
+chunk_003200,1,1.0,"ed, but wept, because she too would have"
+chunk_003600,1,0.9999999999990905," you, if you have picked them out again "
+chunk_004000,1,0.9999999999999432,"he birds beneath the sky, came whirring "
+chunk_004400,1,1.0,and believed that now she would be allow
+chunk_004800,1,1.0,not do again.  When the step-mother had 
+chunk_005200,1,1.0, at length all the birds beneath the sky
+chunk_005600,1,1.0,eved that she might now go with them to 
+chunk_006000,1,1.0,"iver and quiver, little tree,      silve"
+chunk_006400,1,1.0,"never once thought of cinderella, and be"
+chunk_006800,1,1.0,"the king's son said, I will go with you "
+chunk_007200,1,1.0,xe that he might hew the pigeon-house to
+chunk_007600,1,1.0,"and the bird had taken them away again, "
+chunk_008000,1,1.0,than on the preceding day. And when cind
+chunk_008400,1,1.0, house she went.  But she sprang away fr
+chunk_008800,1,0.9999999999999858," up the pear-tree.  The father thought, "
+chunk_009200,1,1.0,"and sisters had gone away, cinderella we"
+chunk_009600,1,1.0,or astonishment.  The king's son danced 
+chunk_010000,1,1.0,"hen she ran down, had the maiden's left "
+chunk_010400,1,1.0,and her mother stood by.  But she could 
+chunk_010800,1,1.0," with her.  They were obliged, however, "
+chunk_011200,1,1.0,", and said she was not the true one, and"
+chunk_011600,1,1.0," pain, and went out to the king's son.  "
+chunk_012000,1,1.0,"oe, and how it had stained her white sto"
+chunk_012400,1,0.9999999999998153,"red, oh, no, she is much too dirty, she "
+chunk_012800,1,1.0,n she rose up and the king's son looked 
+chunk_013200,1,1.0,"od is in the shoe,      the shoe is not "
+chunk_013600,3,0.9998958201798277,nd share her good fortune.  When the bet
+chunk_014000,3,1.0,blindness all their days.
