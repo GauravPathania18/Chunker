@@ -270,7 +270,7 @@ INSTRUCTIONS:
                     "stream": False,
                     "options": {
                         "temperature": self.temperature,
-                        "num_predict": 500,
+                        "num_predict": -1,
                         "top_k": 40,
                         "top_p": 0.9
                     }
