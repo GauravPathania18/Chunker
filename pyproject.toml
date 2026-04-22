@@ -9,7 +9,7 @@ description = "Hierarchical document clustering and semantic RAG system with Oll
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
-authors = [{name = "Your Name", email = "your.email@example.com"}]
+authors = [{name = "Chunker Contributors"}]
 keywords = [
     "rag",
     "retrieval-augmented-generation",

@@ -127,25 +127,26 @@ dmypy.json
 *~
 .DS_Store
 
-# Project-specific
+# Project-specific - ChromaDB databases
 chroma_db/
-logs/
-output/
-*.csv
-*.sqlite3
-processed_chunks.json
-clustering_history.json
-
-# Test databases
 document_db/
 hierarchical_chroma_db/
 improved_chroma_db/
 my_chroma_data/
 pdf_chroma_db/
+test_db/
+test_chroma_minimal_db/
 
-# Downloaded PDFs
+# Project-specific - Logs and output
+logs/
+*.log
+output/
+
+# Project-specific - Generated files
+*.csv
+*.sqlite3
 *.pdf
-
-# Large files
 *.pptx
 *.docx
+processed_chunks.json
+clustering_history.json

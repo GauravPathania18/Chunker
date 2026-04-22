@@ -54,7 +54,7 @@ A comprehensive Retrieval-Augmented Generation (RAG) system for document process
 Documents (PDF/TXT)
     ↓
 [mk3.py] HierarchicalClusterSummarizer
-    ├── read_pdf() / read_document()
+    ├── read_pdf()
     ├── create_chunks()
     ├── add_document() → ChromaDB
     ├── perform_clustering() → GMM
@@ -83,9 +83,6 @@ User (Conversational interface)
 | `validators.py` | Input validation for files, queries, API responses |
 | `mk3.py` | Main processor: document chunking, clustering, summaries |
 | `face.py` | RAG interface: retrieval + generation |
-| `fixed_chunk.py` | Base chunking pipeline (utility) |
-| `chunk.py` | Semantic chunking with sentence clustering (optional) |
-| `inspector.py` | Database diagnostics utility |
 
 ---
 
@@ -131,8 +128,8 @@ ollama pull mistral
 Edit `config.py` if needed:
 ```python
 PATHS = {
-    'chroma_db': './chroma_db',          # Database location
-    'logs_dir': './logs',                 # Logs location
+    'chroma_db': './hierarchical_chroma_db',  # Database location
+    'logs_dir': './logs',                    # Logs location
 }
 
 MODELS = {
@@ -154,9 +151,9 @@ All settings are centralized in `config.py`. Key sections:
 ### PATHS
 ```python
 PATHS = {
-    'chroma_db': './chroma_db',           # Persistent storage
-    'output_dir': './output',              # Report directory
-    'logs_dir': './logs',                  # Log directory
+    'chroma_db': './hierarchical_chroma_db',  # Persistent storage
+    'output_dir': './output',                   # Report directory
+    'logs_dir': './logs',                       # Log directory
     'processed_chunks_db': './processed_chunks.json'  # Duplicate tracking
 }
 ```
@@ -175,7 +172,7 @@ MODELS = {
 LIMITS = {
     'chunk_size': 500,                     # Characters per chunk
     'chunk_overlap': 50,                   # Overlap
-    'batch_size': 1000,                    # ChromaDB batch size
+    'batch_size': 10,                      # Items per batch (reduced to prevent memory issues)
     'max_summary_length': 4000,            # Max text to summarize
     'ollama_timeout': 60,                  # LLM response timeout (seconds)
     'pdf_extraction_timeout': 300,         # PDF reading timeout
@@ -198,7 +195,7 @@ CLUSTERING = {
 ### 1. Basic Document Addition (mk3.py)
 
 ```python
-from mk3 import HierarchicalClusterSummarizer
+from chunker import HierarchicalClusterSummarizer
 
 # Initialize processor
 processor = HierarchicalClusterSummarizer()
@@ -215,7 +212,7 @@ print(f"Clustering converged at level {history['final_level']}")
 ### 2. Conversational RAG (face.py)
 
 ```python
-from face import RAGInterface
+from chunker import RAGInterface
 
 # Initialize RAG interface (validates Ollama connectivity)
 rag = RAGInterface()
@@ -237,7 +234,7 @@ for turn in rag.conversation_history:
 ### 3. Retrieve Context Only
 
 ```python
-from face import RAGInterface
+from chunker import RAGInterface
 
 rag = RAGInterface()
 
@@ -253,10 +250,12 @@ if context['success']:
 ### 4. Database Inspection
 
 ```python
-from inspector import inspect_chroma_db
+# Use the ChromaDB client directly for inspection
+from chunker import HierarchicalClusterSummarizer
 
-# Comprehensive database inspection
-inspect_chroma_db(persist_directory="./chroma_db")
+processor = HierarchicalClusterSummarizer()
+count = processor.chunks_collection.count()
+print(f"Total chunks in database: {count}")
 ```
 
 ---
@@ -468,7 +467,7 @@ debug("Detailed debug info")
 ## Performance Tips
 
 1. **Chunk Size:** 300-500 chars optimal for most documents
-2. **Batch Size:** 1000 for <10GB RAM, 2000 for >16GB RAM
+2. **Batch Size:** 10-100 for stable ChromaDB operations
 3. **Embedding Model:** `all-mpnet-base-v2` is fast; `all-MiniLM` is faster but lower quality
 4. **LLM Model:** `gemma3:4b` balanced; `gemma3:12b` for higher quality; `gemma3:1b` for fastest
 5. **Clustering:** Set `silhouette_threshold` high (0.1+) for faster convergence
@@ -479,7 +478,7 @@ debug("Detailed debug info")
 
 To extend or modify:
 
-1. **Add new document type:** Update `mk3.py:read_pdf()`
+1. **Add new document type:** Update `mk3.py:read_pdf()` or add new reader method
 2. **Change embedding model:** Update `config.py:MODELS['embedding']`
 3. **Add new validator:** Create function in `validators.py`
 4. **Custom LLM:** Update `face.py:generate_response()`
